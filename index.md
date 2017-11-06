@@ -79,11 +79,11 @@ Just kidding hehe xd
 
 Landing page mockup page
 
-<img src="images/CampusBeatsLandingPage.png" height="300px">
+<img src="images/CampusBeatsLandingPage.png">
 
 Profile mockup page
 
-<img src="images/CampusBeatsProfile.png" height="300px">
+<img src="images/CampusBeatsProfile.png">
 
 
 hello my name is CHad
