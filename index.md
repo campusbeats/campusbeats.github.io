@@ -95,7 +95,9 @@ Directory mockup page
 # Contact us:
 
 Email: watarub@hawaii.edu
+
 Smoke signal: birds only
+
 Telegraph #: 3
 
 
