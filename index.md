@@ -1,7 +1,3 @@
-Hello this is our page. There is nothing on it because memes. Bye.
-
-Just kidding hehe xd
-
 ## Table of Contents
 - [About Campus Beats](#about-campus-beats)  
 - [Installation](#installation)
