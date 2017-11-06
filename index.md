@@ -3,7 +3,7 @@ Hello this is our page. There is nothing on it because memes. Bye.
 Just kidding hehe xd
 
 ## Table of Contents
-- [About Campus Jams](#about-campus-beats)  
+- [About Campus Beats](#about-campus-beats)  
 - [Installation](#installation)
 - [Application design](#application-design)
 - [Directory structure](#directory-structure)
@@ -33,7 +33,8 @@ Just kidding hehe xd
 
 # About Campus Beats
 
-
+## What will Campus Beats do?
+Campus Beats will provide a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users will be able to search each other out by various factors such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and then they can contact each other through use of the app or external means such as phone/email. 
 
 # Installation
 
@@ -90,6 +91,13 @@ Profile mockup page
 Directory mockup page
 
 <img src="images/CampusBeatsFindUsersPage.png">
+
+# Contact us:
+
+Email: watarub@hawaii.edu
+Smoke signal: birds only
+Telegraph #: 3
+
 
 hello my name is Chad
 
