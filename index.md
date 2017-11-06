@@ -25,7 +25,7 @@ Just kidding hehe xd
   - [Milestone 3: Connect UI to data model](#milestone-3-connect-ui-to-data-model)
   - [Milestone 4: Authentication](#milestone-4-authentication)
   - [Milestone 5: Administration](#milestone-5-administration)
-- [Walkthrough videos](#walkthrough-videos)
+- [Mockup Pages](#mockup-pages)
 - [JSDocs](/jsdocs)
 
 
@@ -75,7 +75,15 @@ Just kidding hehe xd
 
 # Milestone 5 Administration
 
-# Walkthrough Videos
+# Mockup Pages
+
+Landing page mockup page
+
+<img src="images/CampusBeatsLandingPage.png">
+
+Profile mockup page
+
+<img src="images/CampusBeatsProfilePage.png">
 
 
 hello my name is CHad
