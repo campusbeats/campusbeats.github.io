@@ -79,11 +79,11 @@ Just kidding hehe xd
 
 Landing page mockup page
 
-<img class="medium" src="images/CampusBeatsLandingPage.png" height="300px">
+<img class="medium" src="images/CampusBeatsLandingPage.png" width="300px">
 
 Profile mockup page
 
-<img class="medium" src="images/CampusBeatsProfile.png" height="300px">
+<img class="medium" src="images/CampusBeatsProfile.png" width="300px">
 
 
 hello my name is CHad
