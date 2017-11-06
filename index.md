@@ -98,7 +98,7 @@ Directory mockup page
 
 # Contact us:
 
-Email: watarub@hawaii.edu
+Email: watarub@hawaii.edu / innikakp@hawaii.edu / lancenhd@hawaii.edu
 
 Smoke signal: birds only
 
