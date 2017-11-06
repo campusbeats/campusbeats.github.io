@@ -29,7 +29,7 @@
 
 # About Campus Beats
 
-## What will Campus Beats do?
+## What will Campus Beats Do?
 Campus Beats will provide a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users will be able to search each other out by various factors such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and then they can contact each other through use of the app or external means such as phone/email. 
 
 Users can also choose to create events or projects to recruit for musicians, for example a user may need someone to play at an event like a wedding, or a soundtrack for an animation or game. From there, they can search for musicians to fill that need using the app, and meet up together to collaborate.
