@@ -3,7 +3,7 @@ Hello this is our page. There is nothing on it because memes. Bye.
 Just kidding hehe xd
 
 ## Table of Contents
-- [About Campus Jams](#about-campus-jams)  
+- [About Campus Jams](#about-campus-beats)  
 - [Installation](#installation)
 - [Application design](#application-design)
 - [Directory structure](#directory-structure)
@@ -31,7 +31,7 @@ Just kidding hehe xd
 
 
 
-# About Campus Jams
+# About Campus Beats
 
 # Installation
 
