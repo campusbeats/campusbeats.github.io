@@ -37,6 +37,46 @@ Just kidding hehe xd
 
 # Application Design 
 
+# Directory Structure
+
+# Import Conventions
+
+# Naming Conventions
+
+# Data Model
+
+# Css 
+
+# Routing 
+
+# Authentication 
+
+# Authorization 
+
+# configuration 
+
+# quality-assurance 
+
+# Eslint 
+
+# Data Model Unit Tests
+
+# JSDoc
+
+# Development History
+
+# Milestone 1 Mockup Development
+
+# Milestone 2 Data Model Development
+
+# Milestone 3 Connect UI To Data Model
+
+# Milestone 4 Authentication
+
+# Milestone 5 Administration
+
+# Walkthrough Videos
+
 
 hello my name is CHad
 
