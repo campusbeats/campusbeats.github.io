@@ -87,6 +87,9 @@ Profile mockup page
 
 <img src="images/CampusBeatsProfile.png">
 
+Directory mockup page
 
-hello my name is CHad
+<img src="images/CampusBeatsFindUsersPage.png">
+
+hello my name is Chad
 
