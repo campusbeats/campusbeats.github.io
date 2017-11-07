@@ -21,10 +21,7 @@ title: Campus Beats
   - [JSDoc](#JSDoc)
 - [Development history](#development-history)
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
-  - [Milestone 2: Data model development](#milestone-2-data-model-development)
-  - [Milestone 3: Connect UI to data model](#milestone-3-connect-ui-to-data-model)
-  - [Milestone 4: Authentication](#milestone-4-authentication)
-  - [Milestone 5: Administration](#milestone-5-administration)
+  - [Milestone 2: Functionality](#milestone-2-functionality)
 - [Mockup Pages](#mockup-pages)
 - [JSDocs](/jsdocs)
 
@@ -78,13 +75,8 @@ From there, users will be brought to a directory page, where they can input thei
 
 # Milestone 1 Mockup Development
 
-# Milestone 2 Data Model Development
+# Milestone 2 Functionality
 
-# Milestone 3 Connect UI To Data Model
-
-# Milestone 4 Authentication
-
-# Milestone 5 Administration
 
 # Mockup Pages
 
