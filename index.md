@@ -1,3 +1,7 @@
+---
+title: Campus Beats
+---
+
 ## Table of Contents
 - [About Campus Beats](#about-campus-beats)  
 - [Installation](#installation)
