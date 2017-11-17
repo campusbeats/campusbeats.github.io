@@ -73,9 +73,38 @@ From there, users will be brought to a directory page, where they can input thei
 
 # Development History
 
-# Milestone 1 Mockup Development
+## Milestone 1 Mockup Development
+This milestone started on November 4, 2017 and ended on November 21, 2017. 
 
-# Milestone 2 Functionality
+The task was to create five HTML mockup pages of CampusBeats, which included the landing page and four other mockuups, and to deploy our app to Galaxy. Other than the landing page, the four mockup pages consisted of the User Profile, User Home, Admin Home, and Search/Browse page (otherwise known as the Beats page). These mockup pages were created using the Meteor app using templates and FlowRouter to route specific pages.    
+
+Mockup for User Profile:
+
+Picture here.
+
+Mockup for User Home:
+
+Picture here.
+
+Mockup for Admin Home:
+
+Picture here.
+
+Mockup for Beats:
+
+Picture here.
+
+###Milestone 1 was implemented as CampusBeats Github Milestone M1 (in a similar manner to Bowfolio GitHub Milestone M1):
+
+Picture here.
+
+###Milestone 1 consisted of # issues, which was managed using the Bowfolio GitHub Project M1:
+
+Picture here.
+
+Each issue was assigned to one person so that work can be delegated efficently to each team member. A branch named "issue" with its issue number was created for each issue. When every issue was finished/specific mockup page was completed, the branch was merged into master.
+
+## Milestone 2 Functionality
 
 
 # Mockup Pages
