@@ -44,7 +44,7 @@ Profile mockup page
 
 Directory mockup page
 
-<img heigh"300" src="images/CampusBeatsFindUsersPage.png">
+<img height="300" src="images/CampusBeatsFindUsersPage.png">
 
 ## Milestone 1: Mockup Development
 This milestone started on November 4, 2017 and ended on November 21, 2017. 
