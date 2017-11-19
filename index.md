@@ -7,11 +7,10 @@ title: Campus Beats
 - [Installation](#installation)
 - [Application design](#application-design)
 - [Development history](#development-history)
+  - [Initial Mockup Pages](#initial-mockup-pages)
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
   - [Milestone 2: Functionality](#milestone-2-functionality)
-- [Initial Mockup Pages](#initial-mockup-pages)
-
-
+  
 
 
 # About Campus Beats
@@ -32,6 +31,20 @@ From there, users will be brought to a directory page, where they can input thei
 # Application Design 
 
 # Development History
+
+## Initial Mockup Pages
+
+Landing page mockup page
+
+<img height="300" src="images/CampusBeatsLandingPage.png">
+
+Profile mockup page
+
+<img height="300" src="images/CampusBeatsProfile.png">
+
+Directory mockup page
+
+<img heigh"300" src="images/CampusBeatsFindUsersPage.png">
 
 ## Milestone 1: Mockup Development
 This milestone started on November 4, 2017 and ended on November 21, 2017. 
@@ -86,20 +99,6 @@ Picture here.
 ### Milestone 2 consisted of 4 issues, which was managed using the CampusBeats GitHub Project M1:
 
 Picture here.
-
-# Initial Mockup Pages
-
-Landing page mockup page
-
-<img src="images/CampusBeatsLandingPage.png">
-
-Profile mockup page
-
-<img src="images/CampusBeatsProfile.png">
-
-Directory mockup page
-
-<img src="images/CampusBeatsFindUsersPage.png">
 
 # Contact us:
 
