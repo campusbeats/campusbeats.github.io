@@ -38,22 +38,34 @@ This milestone started on November 4, 2017 and ended on November 21, 2017.
 
 The task was to create five HTML mockup pages of CampusBeats, which included the landing page and four other mockuups, and to deploy our app to Galaxy. Other than the landing page, the four mockup pages consisted of the User Profile, User Home, Admin Home, and Search/Browse page (otherwise known as the Beats page). These mockup pages were created using the Meteor app using templates and FlowRouter to route specific pages.    
 
+HTML Mockup for Landing:
+<img src="images/mockup-6.png">
+
 HTML Mockup for User Profile:
 
 <img src="images/mockup-7.png">
 <img src="images/mockup-1.png">
+<img src="images/mockup-5.png">
 
 HTML Mockup for User Home:
 
-Picture here.
+<img src="images/mockup-7.png">
+<img src="images/mockup-2.png">
+<img src="images/mockup-3.png">
+<img src="images/mockup-5.png">
 
 HTML Mockup for Admin Home:
 
-Picture here.
+<img src="images/mockup-7.png">
+<img src="images/mockup-4.png">
+<img src="images/mockup-2.png">
+<img src="images/mockup-3.png">
+<img src="images/mockup-5.png">
 
 HTML Mockup for Beats:
 
-Picture here.
+<img src="images/mockup-7.png">
+<img src="images/mockup-5.png">
 
 ### Milestone 1 was implemented as CampusBeats Github Milestone M1 (in a similar manner to Bowfolio GitHub Milestone M1):
 
