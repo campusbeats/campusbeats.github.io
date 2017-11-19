@@ -40,7 +40,8 @@ The task was to create five HTML mockup pages of CampusBeats, which included the
 
 HTML Mockup for User Profile:
 
-Picture here.
+<img src="images/mockup-7.png">
+<img src="images/mockup-1.png">
 
 HTML Mockup for User Home:
 
