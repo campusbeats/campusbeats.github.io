@@ -67,11 +67,11 @@ The task was to create five HTML mockup pages of CampusBeats, which included the
 <img src="images/mockup-7.png">
 <img src="images/mockup-5.png">
 
-### Milestone 1 was implemented as CampusBeats Github Milestone M1 (in a similar manner to Bowfolio GitHub Milestone M1):
+### Milestone 1 was implemented as CampusBeats Github Milestone M1:
 
 Picture here.
 
-### Milestone 1 consisted of # issues, which was managed using the Bowfolio GitHub Project M1:
+### Milestone 1 consisted of 9 issues, which was managed using the CampusBeats GitHub Project M1:
 
 Picture here.
 
@@ -79,6 +79,13 @@ Each issue was assigned to one person so that work can be delegated efficently t
 
 ## Milestone 2 Functionality
 
+### Milestone 2 was implemented as CampusBeats Github Milestone M2:
+
+Picture here.
+
+### Milestone 2 consisted of 4 issues, which was managed using the CampusBeats GitHub Project M1:
+
+Picture here.
 
 # Initial Mockup Pages
 
