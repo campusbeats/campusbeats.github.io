@@ -10,7 +10,6 @@ title: Campus Beats
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
   - [Milestone 2: Functionality](#milestone-2-functionality)
 - [Initial Mockup Pages](#initial-mockup-pages)
-- [JSDocs](/jsdocs)
 
 
 
@@ -31,32 +30,6 @@ From there, users will be brought to a directory page, where they can input thei
 # Installation
 
 # Application Design 
-
-# Directory Structure
-
-# Import Conventions
-
-# Naming Conventions
-
-# Data Model
-
-# Css 
-
-# Routing 
-
-# Authentication 
-
-# Authorization 
-
-# configuration 
-
-# quality-assurance 
-
-# Eslint 
-
-# Data Model Unit Tests
-
-# JSDoc
 
 # Development History
 
@@ -115,6 +88,28 @@ Email: watarub@hawaii.edu / innikakp@hawaii.edu / lancenhd@hawaii.edu
 Smoke signal: birds only
 
 Telegraph #: 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 hello my name is Chad
