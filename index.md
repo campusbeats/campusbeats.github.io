@@ -94,12 +94,12 @@ Each issue was assigned to one person so that work can be delegated efficently t
 
 ## Milestone 2 Functionality
 
-### Milestone 2 was implemented as CampusBeats Github Milestone M2:
+### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
 
 Link to [Milestone 2 Project Page](https://github.com/campusbeats/campusbeats/projects/2)
 Picture here.
 
-### Milestone 2 currently consists of 4 issues, which was managed using the CampusBeats GitHub Project M1:
+### Milestone 2 currently consists of 5 issues, which are being managed using the CampusBeats GitHub Project M2:
 
 More issues will be added as they become apparent during the development process.
 Picture here.
