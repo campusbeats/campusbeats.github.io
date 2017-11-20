@@ -15,6 +15,8 @@ title: Campus Beats
 
 # About Campus Beats
 
+Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/)
+
 ## What will Campus Beats Do?
 Campus Beats will provide a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users will be able to search each other out by various factors such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and then they can contact each other through use of the app or external means such as phone/email. 
 
@@ -24,7 +26,6 @@ Users can also choose to create events or projects to recruit for musicians, for
 Campus Beats will prompt each user (after logging in with UH ID) to create a profile, where they can list their name, musical styles, abilities, experience, and musical goals, as well as links to Youtube, Soundcloud, Spotify, and Itunes, and any personal information like phone, address, or email. 
 
 From there, users will be brought to a directory page, where they can input their search conditions into the search bars, and run the search, where profile cards will be brought up that match those search conditions. Then, the user can click on cards to bring up full profiles of those users, and see further information about that person, or choose to contact them inside or outside the app.
-
 
 # Installation
 
@@ -49,7 +50,7 @@ Directory mockup page
 ## Milestone 1: Mockup Development
 This milestone started on November 4, 2017 and ended on November 21, 2017. 
 
-The task was to create five HTML mockup pages of CampusBeats, which included the landing page and four other mockuups, and to deploy our app to Galaxy. Other than the landing page, the four mockup pages consisted of the User Profile, User Home, Admin Home, and Search/Browse page (otherwise known as the Beats page). These mockup pages were created using the Meteor app using templates and FlowRouter to route specific pages.    
+The task was to create four HTML mockup pages of CampusBeats and a complete implementation of the landing page, and to deploy our app to Galaxy. Other than the landing page, the four mockup pages consisted of the User Profile, User Home, Admin Home, and Search/Browse page (otherwise known as the Beats page). These mockup pages were created using the Meteor app using templates and FlowRouter to route specific pages.    
 
 #### HTML Mockup for Landing:
 <img src="images/mockup-6.png">
@@ -82,6 +83,7 @@ The task was to create five HTML mockup pages of CampusBeats, which included the
 
 ### Milestone 1 was implemented as CampusBeats Github Milestone M1:
 
+Link to [Milestone 1 Project Page](https://github.com/campusbeats/campusbeats/projects/1)
 Picture here.
 
 ### Milestone 1 consisted of 9 issues, which was managed using the CampusBeats GitHub Project M1:
@@ -94,10 +96,12 @@ Each issue was assigned to one person so that work can be delegated efficently t
 
 ### Milestone 2 was implemented as CampusBeats Github Milestone M2:
 
+Link to [Milestone 2 Project Page](https://github.com/campusbeats/campusbeats/projects/2)
 Picture here.
 
-### Milestone 2 consisted of 4 issues, which was managed using the CampusBeats GitHub Project M1:
+### Milestone 2 currently consists of 4 issues, which was managed using the CampusBeats GitHub Project M1:
 
+More issues will be added as they become apparent during the development process.
 Picture here.
 
 # Contact us:
