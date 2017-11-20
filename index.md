@@ -99,7 +99,7 @@ Each issue was assigned to one person so that work can be delegated efficently t
 Link to [Milestone 2 Project Page](https://github.com/campusbeats/campusbeats/projects/2)
 Picture here.
 
-### Milestone 2 currently consists of 5 issues, which are being managed using the CampusBeats GitHub Project M2:
+### Milestone 2 currently consists of 6 issues, which are being managed using the CampusBeats GitHub Project M2:
 
 More issues will be added as they become apparent during the development process.
 Picture here.
