@@ -48,7 +48,7 @@ After the user has entered their information and saved it using the "Update" but
 
 The user can also choose to visit the "Beats" page. Here, they are presented with a filter (left side) and a directory (right side). The filter contains a multitude of search fields such as "Goals" or "Abilities" that will narrow down the directory based on what the user inputs in the filter. Once the directory is filtered, the user can click on the cards that show up to view a more in-depth profile page, favorite that person, which will add them to the user's "Favorites" in their homepage, or contact that person, which will show the user in that person's "Interested In You" section on their own homepage.
 
-(Insert beats here)
+![](images/beats_page.png)
 
 # Installation
 (1) Install [Meteor](https://www.meteor.com/install).
@@ -124,11 +124,11 @@ The task was to create four HTML mockup pages of CampusBeats and a complete impl
 ### Milestone 1 was implemented as CampusBeats Github Milestone M1:
 
 Link to [Milestone 1 Project Page](https://github.com/campusbeats/campusbeats/projects/1)
-Picture here.
+![](images/M1milestone.png)
 
 ### Milestone 1 consisted of 9 issues, which was managed using the CampusBeats GitHub Project M1:
 
-![](images/M1milestone.png)
+Picture here.
 
 Each issue was assigned to one person so that work can be delegated efficently to each team member. A branch named "issue" with its issue number was created for each issue. When every issue was finished/specific mockup page was completed, the branch was merged into master.
 
