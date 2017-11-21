@@ -16,6 +16,25 @@ title: Campus Beats
 # About Campus Beats
 
 Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/)
+Upon entering Campus Beats, you will be met with the landing page:
+
+(Insert landing page here)
+
+An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. 
+
+(Insert screenshot of CAS login here)
+
+Explain new user profile
+
+(Insert profile here)
+
+Explain how to get to user home
+
+(Insert user home here)
+
+Explain application of beats 
+
+(Insert beats here)
 
 ## What will Campus Beats Do?
 Campus Beats will provide a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users will be able to search each other out by various factors such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and then they can contact each other through use of the app or external means such as phone/email. 
@@ -105,6 +124,7 @@ More issues will be added as they become apparent during the development process
 Picture here.
 
 # Contact us:
+Developers of CampusBeats: Blaine Wataru, Innika Pang, and Lancen Daclison.
 
 Email: watarub@hawaii.edu / innikakp@hawaii.edu / lancenhd@hawaii.edu
 
