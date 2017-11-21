@@ -35,7 +35,7 @@ Upon entering Campus Beats, you will be met with the landing page:
 
 An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. 
 
-![](images/CASlogin.png)
+![](images/CASlogin.PNG)
 
 A new user will be taken to their Edit Profile page, where they can edit and add information to their profile, ranging from basic information like Name, Address, or Phone Number, to Campus Beats information like their musical abilities and goals, or links to their external pages such as YouTube or SoundCloud.
 
@@ -139,7 +139,7 @@ Picture here.
 ### Milestone 2 currently consists of 9 issues, which are being managed using the CampusBeats GitHub Project M2:
 
 More issues will be added as they become apparent during the development process.
-Picture here.
+![](images/M2milestone.PNG)
 
 # Contact us:
 Developers of CampusBeats: Blaine Wataru, Innika Pang, and Lancen Daclison.
