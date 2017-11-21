@@ -88,7 +88,7 @@ Directory mockup page
 <img height="300" src="images/CampusBeatsFindUsersPage.png">
 
 ## Milestone 1: Mockup Development
-This milestone started on November 4, 2017 and ended on November 21, 2017. 
+This milestone started on November 4, 2017 and ended on November 22, 2017. 
 
 The task was to create four HTML mockup pages of CampusBeats and a complete implementation of the landing page, and to deploy our app to Galaxy. Other than the landing page, the four mockup pages consisted of the User Profile, User Home, Admin Home, and Search/Browse page (otherwise known as the Beats page). These mockup pages were created using the Meteor app using templates and FlowRouter to route specific pages.    
 
@@ -145,33 +145,3 @@ Picture here.
 Developers of CampusBeats: Blaine Wataru, Innika Pang, and Lancen Daclison.
 
 Email: watarub@hawaii.edu / innikakp@hawaii.edu / lancenhd@hawaii.edu
-
-Smoke signal: birds only
-
-Telegraph #: 3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-hello my name is Chad
-
