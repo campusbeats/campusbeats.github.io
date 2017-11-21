@@ -128,7 +128,7 @@ Picture here.
 
 ### Milestone 1 consisted of 9 issues, which was managed using the CampusBeats GitHub Project M1:
 
-Picture here.
+![](images/M1milestone.png)
 
 Each issue was assigned to one person so that work can be delegated efficently to each team member. A branch named "issue" with its issue number was created for each issue. When every issue was finished/specific mockup page was completed, the branch was merged into master.
 
