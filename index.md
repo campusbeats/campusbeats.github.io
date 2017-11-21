@@ -31,25 +31,43 @@ From there, users will be brought to a directory page, where they can input thei
 
 Upon entering Campus Beats, you will be met with the landing page:
 
-(Insert landing page here)
+![](images/mockup-6.png)
 
 An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. 
 
-(Insert screenshot of CAS login here)
+![](images/CASlogin.png)
 
 A new user will be taken to their Edit Profile page, where they can edit and add information to their profile, ranging from basic information like Name, Address, or Phone Number, to Campus Beats information like their musical abilities and goals, or links to their external pages such as YouTube or SoundCloud.
 
-(Insert profile here)
+![](images/mockup-1.png)
 
 After the user has entered their information and saved it using the "Update" button, they can click on the "Home" tab in their menubar to go to the user homepage. From the homepage, the user can view their favorited users and any other users who have elected to contact them. 
 
-(Insert user home here)
+![](images/mockup-2.png)
+![](images/mockup-3.png)
 
 The user can also choose to visit the "Beats" page. Here, they are presented with a filter (left side) and a directory (right side). The filter contains a multitude of search fields such as "Goals" or "Abilities" that will narrow down the directory based on what the user inputs in the filter. Once the directory is filtered, the user can click on the cards that show up to view a more in-depth profile page, favorite that person, which will add them to the user's "Favorites" in their homepage, or contact that person, which will show the user in that person's "Interested In You" section on their own homepage.
 
 (Insert beats here)
 
 # Installation
+(1) Install [Meteor](https://www.meteor.com/install).
+
+(2) Download a [zip file of Campus Beats](https://github.com/campusbeats/campusbeats/archive/master.zip) or clone it using git.
+  
+(3) Change into the app/ directory using the cd command and install Node libraries with:
+
+```
+$ meteor npm install
+```
+
+(4) Run the application using:
+
+```
+$ meteor npm run start
+```
+
+The application will appear at [http://localhost:3000](http://localhost:3000) when it is running correctly. You can login to the application if you have an account on the UH test CAS server.  
 
 # Application Design 
 
