@@ -16,25 +16,6 @@ title: Campus Beats
 # About Campus Beats
 
 Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/)
-Upon entering Campus Beats, you will be met with the landing page:
-
-(Insert landing page here)
-
-An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. 
-
-(Insert screenshot of CAS login here)
-
-Explain new user profile
-
-(Insert profile here)
-
-Explain how to get to user home
-
-(Insert user home here)
-
-Explain application of beats 
-
-(Insert beats here)
 
 ## What will Campus Beats Do?
 Campus Beats will provide a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users will be able to search each other out by various factors such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and then they can contact each other through use of the app or external means such as phone/email. 
@@ -45,6 +26,30 @@ Users can also choose to create events or projects to recruit for musicians, for
 Campus Beats will prompt each user (after logging in with UH ID) to create a profile, where they can list their name, musical styles, abilities, experience, and musical goals, as well as links to Youtube, Soundcloud, Spotify, and Itunes, and any personal information like phone, address, or email. 
 
 From there, users will be brought to a directory page, where they can input their search conditions into the search bars, and run the search, where profile cards will be brought up that match those search conditions. Then, the user can click on cards to bring up full profiles of those users, and see further information about that person, or choose to contact them inside or outside the app.
+
+## User Experience of Campus Beats
+
+Upon entering Campus Beats, you will be met with the landing page:
+
+(Insert landing page here)
+
+An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. 
+
+(Insert screenshot of CAS login here)
+
+A new user will be taken to their Edit Profile page, where they can edit and add information to their profile, ranging from basic information like Name, Address, or Phone Number, to Campus Beats information like their musical abilities and goals, or links to their external pages such as YouTube or SoundCloud.
+
+(Insert profile here)
+
+After the user has entered their information and saved it using the "Update" button, they can click on the "Home" tab in their menubar to go to the user homepage. From the homepage, the user can view their favorited users, and 
+
+Explain how to get to user home
+
+(Insert user home here)
+
+Explain application of beats 
+
+(Insert beats here)
 
 # Installation
 
