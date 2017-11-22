@@ -238,7 +238,7 @@ BowFolios checks on startup to see if it has an empty database in [initialize-da
 
 ### ESLint
 
-BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+Campusbeats includes a eslintrc file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
@@ -247,6 +247,7 @@ meteor npm run lint
 ESLint should run without generating any errors.  
 
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
+With ESLint, you can catch errors within your code, and it follows a standard that making it easier to read for other programmers.
 
 ### Data model unit tests
 
@@ -259,9 +260,9 @@ meteor npm run test
 This outputs the results to the console. Here is an example of a successful run, with timestamps removed:
 
 ```
-[~/github/bowfolios/bowfolios/app]-> meteor npm run test
+[~/github/campusbeats/app]-> meteor npm run test
 
-> bowfolios@ test /Users/philipjohnson/github/bowfolios/bowfolios/app
+> campusbeats@ test /Users/campusbeats_squad/github/campusbeats/app
 > TEST_WATCH=1 meteor test --driver-package meteortesting:mocha
 
 [[[[[ Tests ]]]]]                             
