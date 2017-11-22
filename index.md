@@ -353,6 +353,7 @@ The task was to create four HTML mockup pages of CampusBeats and a complete impl
 ![](images/beats_page.png)
 
 #### Milestone 1 was implemented as CampusBeats Github Milestone M1:
+![](images/M1.png)  
 
 #### The Project Page for Milestone 1 of CampusBeats can be found at [Milestone 1 Project Page](https://github.com/campusbeats/campusbeats/projects/1)
 
