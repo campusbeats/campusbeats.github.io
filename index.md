@@ -319,23 +319,23 @@ This milestone started on November 4, 2017 and ended on November 22, 2017.
 
 The task was to create four HTML mockup pages of CampusBeats and a complete implementation of the landing page, and to deploy our app to Galaxy. Other than the landing page, the four mockup pages consisted of the User Profile, User Home, Admin Home, and Search/Browse page (otherwise known as the Beats page). These mockup pages were created using the Meteor app using templates and FlowRouter to route specific pages.    
 
-#### HTML Mockup for Landing:
+### HTML Mockup for Landing:
 <img src="images/mockup-6.png">
 
-#### HTML Mockup for User Profile:
+### HTML Mockup for User Profile:
 
 <img src="images/mockup-7.png">
 <img src="images/mockup-1.png">
 <img src="images/mockup-5.png">
 
-#### HTML Mockup for User Home:
+### HTML Mockup for User Home:
 
 <img src="images/mockup-7.png">
 <img src="images/mockup-2.png">
 <img src="images/mockup-3.png">
 <img src="images/mockup-5.png">
 
-#### HTML Mockup for Admin Home:
+### HTML Mockup for Admin Home:
 
 <img src="images/mockup-7.png">
 <img src="images/mockup-4.png">
@@ -343,28 +343,28 @@ The task was to create four HTML mockup pages of CampusBeats and a complete impl
 <img src="images/mockup-3.png">
 <img src="images/mockup-5.png">
 
-#### HTML Mockup for Beats:
+### HTML Mockup for Beats:
 
 ![](images/beats_page.png)
 
-### Milestone 1 was implemented as CampusBeats Github Milestone M1:
+#### Milestone 1 was implemented as CampusBeats Github Milestone M1:
 
 The Project Page for Milestone 1 of CampusBeats can be found at [Milestone 1 Project Page](https://github.com/campusbeats/campusbeats/projects/1)
 ![](images/M1milestone.PNG)
 
-### Milestone 1 consisted of 9 issues, which was managed using the CampusBeats GitHub Project M1:
+#### Milestone 1 consisted of 9 issues, which was managed using the CampusBeats GitHub Project M1:
 
 Each issue was assigned to one person so that work can be delegated efficently to each team member. A branch named "issue" with its issue number was created for each issue. When every issue was finished/specific mockup page was completed, the branch was merged into master.
 
 ## Milestone 2 Functionality
 
-### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
+#### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
 
 The Project Page for Milestone 2 of Campus Beats can be found at [Milestone 2 Project Page](https://github.com/campusbeats/campusbeats/projects/2)
 
 At this time, we currently do not have source code for Milestone 2 since we have yet to work on it.
 
-### Milestone 2 currently consists of 9 issues, which are being managed using the CampusBeats GitHub Project M2:
+#### Milestone 2 currently consists of 9 issues, which are being managed using the CampusBeats GitHub Project M2:
 
 More issues will be added as they become apparent during the development process.
 ![](images/M2milestone.PNG)
