@@ -352,9 +352,9 @@ The task was to create four HTML mockup pages of CampusBeats and a complete impl
 
 ![](images/beats_page.png)
 
-##### Milestone 1 was implemented as CampusBeats Github Milestone M1:
+#### Milestone 1 was implemented as CampusBeats Github Milestone M1:
 
-The Project Page for Milestone 1 of CampusBeats can be found at [Milestone 1 Project Page](https://github.com/campusbeats/campusbeats/projects/1)
+#### The Project Page for Milestone 1 of CampusBeats can be found at [Milestone 1 Project Page](https://github.com/campusbeats/campusbeats/projects/1)
 
 This is our timeline of Milestone 1.
 ![](images/timelineM1.png)
@@ -369,7 +369,9 @@ Each issue was assigned to one person so that work can be delegated efficently t
 
 #### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
 
-The Project Page for Milestone 2 of Campus Beats can be found at [Milestone 2 Project Page](https://github.com/campusbeats/campusbeats/projects/2)
+![](images/M2.png)
+
+#### The Project Page for Milestone 2 of Campus Beats can be found at [Milestone 2 Project Page](https://github.com/campusbeats/campusbeats/projects/2)
 
 At this time, we currently do not have source code for Milestone 2 since we have yet to work on it.
 
