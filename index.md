@@ -131,11 +131,11 @@ server/
 
 ## Import conventions
 
-This system adheres to the Meteor 1.4 guideline of putting all application code in the imports/ directory, and using client/main.js and server/main.js to import the code appropriate for the client and server in an appropriate order.
+Application code is located in the imports/ directory and the client/main.js and server/main.js that imports the appropriate code in the proper order for the client and server are in compliance with the Meteor 1.4 guidelines .
 
-This system accomplishes client and server-side importing in a different manner than most Meteor sample applications. In this system, every imports/ subdirectory containing any Javascript or HTML files has a top-level index.js file that is responsible for importing all files in its associated directory.   
+All imports/ subdirectory contains Javscript or HTML files that heach have top-level index.js files, which are responsble for importing the correct files to the current directory it is located in.    
 
-Then, client/main.js and server/main.js are responsible for importing all the directories containing code they need. For example, here is the contents of client/main.js:
+Other directories are imported by the client/main.js and server/main.js. For instance, this is the contents of the client/main.js file of CampusBeats: 
 
 ```
 import '/imports/startup/client';
@@ -149,19 +149,22 @@ import '/imports/ui/layouts/shared';
 import '/imports/ui/layouts/user';
 import '/imports/ui/pages/directory';
 import '/imports/ui/pages/filter';
+import '/imports/ui/pages/beats';
+import '/imports/ui/pages/home';
+import '/imports/ui/pages/admin';
 import '/imports/ui/pages/landing';
 import '/imports/ui/pages/user';
+import '/imports/ui/stylesheets/style.css';
 import '/imports/api/base';
 import '/imports/api/profile';
 import '/imports/api/interest';
-import '/imports/ui/stylesheets/style.css';
 ```
 
-Apart from the last line that imports style.css directly, the other lines all invoke the index.js file in the specified directory.
+All of the directories import their specified index.js file, except for the style.css which is imported directly.
 
-We use this approach to make it more simple to understand what code is loaded and in what order, and to simplify debugging when some code or templates do not appear to be loaded.  In our approach, there are only two places to look for top-level imports: the main.js files in client/ and server/, and the index.js files in import subdirectories. 
+This approach is necessary in order to understand the order and type of code that is loaded in our application. It makes it easier to debug code or tempaltes that are not loaded, meaning they may not appear when the application is built. Ideally, top-level imports are located in two places: the main.js files in client/ and server/. Other index.js files are used to import subdirectories. 
 
-Note that this two-level import structure ensures that all code and templates are loaded, but does not ensure that the symbols needed in a given file are accessible.  So, for example, a symbol bound to a collection still needs to be imported into any file that references it. 
+Although the top-level import structure guarantees all of the necessary code and templates are loaded, it does not mean symbols are accessisble within a file. For instance, a symbol would need to be imported into a specific file if it is bounded to a collection. 
  
 ## Naming conventions
 
@@ -180,33 +183,36 @@ The CampusBeats data model is implemented by two Javascript classes: [ProfileCol
 
 Any part of the system that manipulates the CampusBeats data model imports the Profiles or Interests variable, and invokes methods of that class to get or set data.
 
-There are many common operations on MongoDB collections. To simplify the implementation, the ProfileCollection and InterestCollection classes inherit from the [BaseCollection](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/base/BaseCollection.js) class.
+Within the application, two collections using MongoDB exist: the ProfileCollection and InterestCollection classes. These are inherited from the [BaseCollection](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/base/BaseCollection.js) class.
 
 The [BaseUtilities](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/base/BaseUtilities.js) file contains functions that operate across both classes. 
 
-Both ProfileCollection and InterestCollection have Mocha unit tests in [ProfileCollection.test.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/profile/ProfileCollection.test.js) and [InterestCollection.test.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/interest/InterestCollection.test.js). See the section below on testing for more details.
+The ProfileCollection and InterestCollection contain Mocha unit tests in [ProfileCollection.test.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/profile/ProfileCollection.test.js) and [InterestCollection.test.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/interest/InterestCollection.test.js). 
+
+Currently, these collections are a part of the current model, but will be updated as new collections are added.
 
 ## CSS
 
 The [Semantic UI](http://semantic-ui.com/) CSS framework is used within this application. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
 
-The Semantic UI theme files are located in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are located in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are located in the client/ directory). 
+The [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory holds the Semantic UI theme files. To load, these files do need to be imported because they are located in the client/ directory and not the imports/ directory as Meteor automatically loads all files located in the client/ directory into the client. 
 
-Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu, and thus no padding should be attached to the body element on that page. To accomplish this, the [router](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/client/router.js) uses "triggers" to add an remove the appropriate classes from the body element when a page is visited and then left by the user. 
+A menu is fixed at the top of all user pages, which means body elements will have padding and adjusted margins to make the page look visibly pleasing. The landing page, however, does not Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu and does not need padding in the body. "Triggers" are needed in the [router](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/client/router.js) to add and remove the appropriate classes from the body element upon visiting the page. 
 
 ## Routing
 
-For display and navigation among its four pages, the application uses [Flow Router](https://github.com/kadirahq/flow-router).
+The application uses [Flow Router](https://github.com/kadirahq/flow-router) to display and navigate through the four main pages and additional pages. 
 
-Routing is defined in [imports/startup/client/router.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/imports/startup/client/router.js).
+Routing used in this application is defined in [imports/startup/client/router.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/imports/startup/client/router.js).
 
-Campus Beats defines the following routes:
+The following routes are defined in CampusBeats:
 
   * The `/` route goes to the public landing page.
   * The `/directory` route goes to the public directory page.
   * The `/<user>/profile` route goes to the profile page associated with `<user>`, which is the UH account name.
-  * The `/<user>/filter` route goes to the filter page associated with `<user>`, which is the UH account name.
-
+  * The `/<user>/home` route goes to the home page associated with `<user>`, which is the UH account name.
+  * The `/<user>/admin` route goes to the admin home page associated with `<user>`, which is the UH account name.
+  * The `/<user>/beats` route goes to the beats page associated with `<user>`, which is the UH account name.
 
 ## Authentication
 
@@ -220,25 +226,25 @@ Those with a valid UH account can login and use CampusBeats to find musically in
 
 Public pages are the landing and directory pages, thus, these pages can be accessed by anyone.
 
-To use the profile and filter pages, authentication is required. The user must log in (i.e. be authenticated) through the UH test CAS server and the returned authenticated username within CAS must be an exact match to the username specified in the URL. So, for example, only the authenticated user `johnson` can access the pages `http://localhost:3000/johnson/profile` and  `http://localhost:3000/johnson/filter`.
+To use the profile and filter pages, authentication is required. The user must log in (i.e. be authenticated) through the UH test CAS server and the returned authenticated username within CAS must be an exact match to the username specified in the URL. For example, the authenticated user `bob` is the only user who can access his pages such as `http://localhost:3000/bob/profile`.
 
-To prevent people from accessing pages they are not authorized to visit, template-based authorization is used following the recommendations in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions). 
+A template-based authorization following the recommendatiosn in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions) is used to restrict the contents of the application to authorized users only.  
 
-The application implements template-based authorization using an If_Authorized template, defined in [If_Authorized.html](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.js).
+An If_Authorized template, defined in [If_Authorized.html](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.js) is implemented for the template-based authorization.
 
 ## Configuration
 
-The [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
+The settings files are held in the [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory.  There is one file in the directory, which is [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
 
-The [.gitignore](https://github.com/bowfolios/bowfolios/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed.
+To prevent a file named settings.production.json and other miscellaneous files from being committed to the repository, the [.gitignore](https://github.com/bowfolios/bowfolios/blob/master/.gitignore) was created. 
 
-Campus Beats checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/bowfolios/bowfolios/blob/master/app/private/database/initial-collection-data.json).
+Upon startup, CampusBeats checks to see if the database is empty in [initialize-database.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/server/initialize-database.js). If it is, the specified file from the configuration file, like [settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json), is loaded.  A sample initialization for the databse is in [initial-collection-data.json](https://github.com/bowfolios/bowfolios/blob/master/app/private/database/initial-collection-data.json) for development purposes.
 
 ## Quality Assurance
 
 ### ESLint
 
-Campusbeats includes a eslintrc file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+A eslintrc file is included in Campusbeats to define the coding style that was followed in the development of this application. ESLint can be invoked from the command line as noted here:
 
 ```
 meteor npm run lint
@@ -246,18 +252,16 @@ meteor npm run lint
 
 ESLint should run without generating any errors.  
 
-It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
-With ESLint, you can catch errors within your code, and it follows a standard that making it easier to read for other programmers.
 
 ### Data model unit tests
 
-To run the unit tests on the data model, invoke the script named 'test', which is defined in the package.json file:
+The script named 'test,' defined in the package.json file, can be invoked to run uni tests on the data model:
 
 ```
 meteor npm run test
 ```
 
-This outputs the results to the console. Here is an example of a successful run, with timestamps removed:
+The results of the test output to the console. For example, a successful run with timestamps removed should look like:
 
 ```
 [~/github/campusbeats/app]-> meteor npm run test
