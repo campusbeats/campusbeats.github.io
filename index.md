@@ -165,20 +165,20 @@ Note that this two-level import structure ensures that all code and templates ar
  
 ## Naming conventions
 
-This system adopts the following naming conventions:
+The naming conventions adhered for this application are:
 
-  * Files and directories are named in all lowercase, with words separated by hyphens. Example: accounts-config.js
-  * "Global" Javascript variables (such as collections) are capitalized. Example: Profiles.
-  * Other Javascript variables are camel-case. Example: collectionList.
-  * Templates representing pages are capitalized, with words separated by underscores. Example: Directory_Page. The files for this template are lower case, with hyphens rather than underscore. Example: directory-page.html, directory-page.js.
-  * Routes to pages are named the same as their corresponding page. Example: Directory_Page.
+  * Lowercase used for files and directories are named in all lowercase with hyphened words. E.g. accounts-config.js
+  * Capitilazation used for"global" Javascript variables (such as collections). E.g. Interests.
+  * Camel-case used for all other Javascript variables. E.g. collectionList.
+  * Capitalization also used for pages represented by templates with underscores separating multiple words. E.g. Home_Page. Files within templates are lower lower case, with hyphens used to separate words. E.g. directory-page.html, user-home.js.
+  * Route names are the same as their corresponding page, captilaization used with underscores separating words. E.g. Directory_Page.
 
 
 ## Data model
 
-The BowFolios data model is implemented by two Javascript classes: [ProfileCollection](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/profile/ProfileCollection.js) and [InterestCollection](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/interest/InterestCollection.js). Both of these classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and Interests)that provides access to that collection. 
+The CampusBeats data model is implemented by two Javascript classes: [ProfileCollection](https://github.com/bowfolios/campusbeats/blob/master/app/imports/api/profile/ProfileCollection.js) and [InterestCollection](https://github.com/bowfolios/campusbeats/blob/master/app/imports/api/interest/InterestCollection.js). Both of these classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and Interests)that provides access to that collection. 
 
-Any part of the system that manipulates the BowFolios data model imports the Profiles or Interests variable, and invokes methods of that class to get or set data.
+Any part of the system that manipulates the CampusBeats data model imports the Profiles or Interests variable, and invokes methods of that class to get or set data.
 
 There are many common operations on MongoDB collections. To simplify the implementation, the ProfileCollection and InterestCollection classes inherit from the [BaseCollection](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/base/BaseCollection.js) class.
 
@@ -188,7 +188,7 @@ Both ProfileCollection and InterestCollection have Mocha unit tests in [ProfileC
 
 ## CSS
 
-The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
+The [Semantic UI](http://semantic-ui.com/) CSS framework is used within this application. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
 
 The Semantic UI theme files are located in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are located in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are located in the client/ directory). 
 
@@ -210,17 +210,17 @@ BowFolios defines the following routes:
 
 ## Authentication
 
-For authentication, the application uses the University of Hawaii CAS test server, and follows the approach shown in [meteor-example-uh-cas](http://ics-software-engineering.github.io/meteor-example-uh-cas/).
+In this application, the University of Hawaii CAS test server is used for authenticating users. The derived approach for authentication is shown in [meteor-example-uh-cas](http://ics-software-engineering.github.io/meteor-example-uh-cas/).
 
-When the application is run, the CAS configuration information must be present in a configuration file such as  [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
+In order for the application to run successfully, it needs the CAS configuration information in a configuration file such as  [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
 
-Anyone with a UH account can login and use BowFolio to create a portfolio.  A profile document is created for them if none already exists for that username.
+Those with a valid UH account can login and use CampusBeats to find musically inclined people. If a profile does not exist for the current user, one is created for them upon accessing the application. 
 
 ## Authorization
 
-The landing and directory pages are public; anyone can access those pages.
+Public pages are the landing and directory pages, thus, these pages can be accessed by anyone.
 
-The profile and filter pages require authorization: you must be logged in (i.e. authenticated) through the UH test CAS server, and the authenticated username returned by CAS must match the username specified in the URL.  So, for example, only the authenticated user `johnson` can access the pages `http://localhost:3000/johnson/profile` and  `http://localhost:3000/johnson/filter`.
+To use the profile and filter pages, authentication is required. The user must log in (i.e. be authenticated) through the UH test CAS server and the returned authenticated username within CAS must be an exact match to the username specified in the URL. So, for example, only the authenticated user `johnson` can access the pages `http://localhost:3000/johnson/profile` and  `http://localhost:3000/johnson/filter`.
 
 To prevent people from accessing pages they are not authorized to visit, template-based authorization is used following the recommendations in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions). 
 
