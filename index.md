@@ -179,15 +179,15 @@ The naming conventions adhered for this application are:
 
 ## Data model
 
-The CampusBeats data model is implemented by two Javascript classes: [ProfileCollection](https://github.com/bowfolios/campusbeats/blob/master/app/imports/api/profile/ProfileCollection.js) and [InterestCollection](https://github.com/bowfolios/campusbeats/blob/master/app/imports/api/interest/InterestCollection.js). Both of these classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and Interests)that provides access to that collection. 
+The CampusBeats data model is implemented by two Javascript classes: [ProfileCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/profile/ProfileCollection.js) and [InterestCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/interest/InterestCollection.js). Both of these classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and Interests)that provides access to that collection. 
 
 Any part of the system that manipulates the CampusBeats data model imports the Profiles or Interests variable, and invokes methods of that class to get or set data.
 
-Within the application, two collections using MongoDB exist: the ProfileCollection and InterestCollection classes. These are inherited from the [BaseCollection](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/base/BaseCollection.js) class.
+Within the application, two collections using MongoDB exist: the ProfileCollection and InterestCollection classes. These are inherited from the [BaseCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/base/BaseCollection.js) class.
 
-The [BaseUtilities](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/base/BaseUtilities.js) file contains functions that operate across both classes. 
+The [BaseUtilities](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/base/BaseUtilities.js) file contains functions that operate across both classes. 
 
-The ProfileCollection and InterestCollection contain Mocha unit tests in [ProfileCollection.test.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/profile/ProfileCollection.test.js) and [InterestCollection.test.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/api/interest/InterestCollection.test.js). 
+The ProfileCollection and InterestCollection contain Mocha unit tests in [ProfileCollection.test.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/profile/ProfileCollection.test.js) and [InterestCollection.test.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/interest/InterestCollection.test.js). 
 
 Currently, these collections are a part of the current model, but will be updated as new collections are added.
 
@@ -197,7 +197,7 @@ The [Semantic UI](http://semantic-ui.com/) CSS framework is used within this app
 
 The [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory holds the Semantic UI theme files. To load, these files do need to be imported because they are located in the client/ directory and not the imports/ directory as Meteor automatically loads all files located in the client/ directory into the client. 
 
-A menu is fixed at the top of all user pages, which means body elements will have padding and adjusted margins to make the page look visibly pleasing. The landing page, however, does not Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu and does not need padding in the body. "Triggers" are needed in the [router](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/client/router.js) to add and remove the appropriate classes from the body element upon visiting the page. 
+A menu is fixed at the top of all user pages, which means body elements will have padding and adjusted margins to make the page look visibly pleasing. The landing page, however, does not Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu and does not need padding in the body. "Triggers" are needed in the [router](https://github.com/campusbeats/campusbeats/blob/master/app/imports/startup/client/router.js) to add and remove the appropriate classes from the body element upon visiting the page. 
 
 ## Routing
 
@@ -236,11 +236,11 @@ A seperate authorization for admin permissions will also be implemented at a fut
 
 ## Configuration
 
-The settings files are held in the [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory.  There is one file in the directory, which is [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
+The settings files are held in the [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory.  There is one file in the directory, which is [config/settings.development.json](https://github.com/campusbeats/campusbeats/blob/master/config/settings.development.json).
 
-To prevent a file named settings.production.json and other miscellaneous files from being committed to the repository, the [.gitignore](https://github.com/bowfolios/bowfolios/blob/master/.gitignore) was created. 
+To prevent a file named settings.production.json and other miscellaneous files from being committed to the repository, the [.gitignore](https://github.com/campusbeats/campusbeats/blob/master/.gitignore) was created. 
 
-Upon startup, CampusBeats checks to see if the database is empty in [initialize-database.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/startup/server/initialize-database.js). If it is, the specified file from the configuration file, like [settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json), is loaded.  A sample initialization for the databse is in [initial-collection-data.json](https://github.com/bowfolios/bowfolios/blob/master/app/private/database/initial-collection-data.json) for development purposes.
+Upon startup, CampusBeats checks to see if the database is empty in [initialize-database.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/startup/server/initialize-database.js). If it is, the specified file from the configuration file, like [settings.development.json](https://github.com/campusbeats/campusbeats/blob/master/config/settings.development.json), is loaded.  A sample initialization for the databse is in [initial-collection-data.json](https://github.com/campusbeats/campusbeats/blob/master/app/private/database/initial-collection-data.json) for development purposes.
 
 ## Quality Assurance
 
