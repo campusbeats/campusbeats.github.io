@@ -232,6 +232,8 @@ A template-based authorization following the recommendatiosn in [Implementing Au
 
 An If_Authorized template, defined in [If_Authorized.html](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.js) is implemented for the template-based authorization.
 
+A seperate authorization for admin permissions will also be implemented at a future date. The admins will be allowed to see and access the special admin home page and controls.
+
 ## Configuration
 
 The settings files are held in the [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory.  There is one file in the directory, which is [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/master/config/settings.development.json).
