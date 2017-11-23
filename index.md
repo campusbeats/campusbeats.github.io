@@ -364,7 +364,7 @@ This is our timeline of Milestone 1.
 
 This illustrates the commits and various branches/merges created during the development of Milestone 1.
 
-#### Milestone 2 currently consists of 9 issues, which are being managed using the CampusBeats GitHub Project M2:
+#### Milestone 1 consists of 9 issues, which are being managed using the CampusBeats GitHub Project M1:
 
 Each issue was assigned to one person so that work can be delegated efficently to each team member. A branch named "issue" with its issue number was created for each issue. When every issue was finished/specific mockup page was completed, the branch was merged into master.
 ![](images/M1milestone.PNG)
