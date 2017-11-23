@@ -360,7 +360,7 @@ The task was to create four HTML mockup pages of CampusBeats and a complete impl
 #### The Project Page for Milestone 1 of CampusBeats can be found at [Milestone 1 Project Page](https://github.com/campusbeats/campusbeats/projects/1)
 
 This is our timeline of Milestone 1.
-![](images/timelineM1.png)
+
 
 This illustrates the commits and various branches/merges created during the development of Milestone 1.
 
