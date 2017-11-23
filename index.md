@@ -360,11 +360,12 @@ The task was to create four HTML mockup pages of CampusBeats and a complete impl
 This is our timeline of Milestone 1.
 ![](images/timelineM1.png)
 
+This illustrates the commits and various branches/merges created during the development of Milestone 1.
+
 ##### Milestone 1 consisted of 9 issues, which was managed using the CampusBeats GitHub Project M1:
 
 Each issue was assigned to one person so that work can be delegated efficently to each team member. A branch named "issue" with its issue number was created for each issue. When every issue was finished/specific mockup page was completed, the branch was merged into master.
 ![](images/M1milestone.PNG)
-
 
 ## Milestone 2 Functionality
 
