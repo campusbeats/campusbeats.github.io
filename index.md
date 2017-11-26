@@ -370,6 +370,9 @@ Each issue was assigned to one person so that work can be delegated efficently t
 ![](images/M1milestone.PNG)
 
 ## Milestone 2 Functionality
+This milestone started on November 23, 2017 and ended on December 7, 2017. 
+
+The task was to be able to use the CAS authentication and improve multiple areas of our application, including quality, software egineering process, and most importantly functionality. Our goal was essentially to improve our application in any way possible, whether it was the funtionality or adding features to make the app more user friendly.  
 
 #### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
 
