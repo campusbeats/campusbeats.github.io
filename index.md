@@ -374,6 +374,13 @@ This milestone started on November 23, 2017 and ended on December 7, 2017.
 
 The task was to be able to use the CAS authentication and improve multiple areas of our application, including quality, software egineering process, and most importantly functionality. Our goal was essentially to improve our application in any way possible, whether it was the funtionality or adding features to make the app more user friendly.  
 
+Some of the features that we are working on Campus beats are the following:
+ - Implement a filtering function, so profiles are sortable to find through filters like "Style", "Experience", "Abilities", "Goals". 
+ - Create a favorite function that allows users to follow each other. 
+ - The ability for our profile page to collect data from the user and successfully create the profile that can be sorted and filterd.
+ - The ability to create admin users who can ban "troublesome users" and create new categories. 
+ - Implement a calendar that shows users when events are held and who are participating in them.
+ 
 #### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
 
 ![](images/M2.png)
