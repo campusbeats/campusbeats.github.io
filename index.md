@@ -387,9 +387,9 @@ Some of the features that we are working on Campus beats are the following:
 
 #### The Project Page for Milestone 2 of Campus Beats can be found at [Milestone 2 Project Page](https://github.com/campusbeats/campusbeats/projects/2)
 
-At this time, we currently do not have source code for Milestone 2 since we have yet to work on it.
+Source code for Milestone 2 is in development.
 
-#### Milestone 2 currently consists of 9 issues, which are being managed using the CampusBeats GitHub Project M2:
+#### Milestone 2 currently consists of 14 issues, which are being managed using the CampusBeats GitHub Project M2:
 
 More issues will be added as they become apparent during the development process.
 ![](images/M2milestone.PNG)
