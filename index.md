@@ -22,7 +22,8 @@ title: Campus Beats
   - [Initial Mockup Pages](#initial-mockup-pages)
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
   - [Milestone 2: Functionality](#milestone-2-functionality)
-  
+  - [Future features & design to implement](#Future-features-&-design-to-implement)
+  - [Community Feedback](#community-feedback)
 
 
 # About Campus Beats
@@ -402,8 +403,12 @@ Source code for Milestone 2 is in development.
 More issues will be added as they become apparent during the development process.
 ![](images/M2milestone.PNG)
 
-## Future features and design to implement
-These are the list of features/design apsects we hope to implement sometime in the future:
+## Future features & design to implement
+These are the list of features/design aspects we hope to implement sometime in the future:
+
+## Commmunity Feedback
+We had 5 people test out our application. The feedback we received from them are as follows:
+
 
 # Contact us:
 Developers of CampusBeats: Blaine Wataru, Innika Pang, and Lancen Daclison.
