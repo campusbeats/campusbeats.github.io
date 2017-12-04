@@ -372,15 +372,23 @@ Each issue was assigned to one person so that work can be delegated efficently t
 ## Milestone 2 Functionality
 This milestone started on November 23, 2017 and ended on December 7, 2017. 
 
-The task was to be able to use the CAS authentication and improve multiple areas of our application, including quality, software egineering process, and most importantly functionality. Our goal was essentially to improve our application in any way possible, whether it was the funtionality or adding features to make the app more user friendly.  
+The task of Milestone 2 was to be able to use the CAS authentication and improve multiple areas of our application, including quality, software egineering process, and most importantly functionality. Our goal was essentially to improve our application in any way possible, whether it was the funtionality or adding features to make the app more user friendly. Another goal we aimed for was to resolve unwanted behaviors in our funtionalities/features and ensure that every component of our application worked in sync with each other. 
 
-Some of the features that we are working on Campus beats are the following:
- - Implement a filtering function, so profiles are sortable to find through filters like "Style", "Experience", "Abilities", "Goals". 
- - Create a favorite function that allows users to follow each other. 
- - The ability for our profile page to collect data from the user and successfully create the profile that can be sorted and filterd.
- - The ability to create admin users who can ban "troublesome users" and create new categories. 
- - Implement a calendar that shows users when events are held and who are participating in them.
- 
+The following features were implemented in Campus Beats during this milestone: 
+ - A filter/search function in Beats. Profiles will be sorted based on filters, consisting of "Style", "Experience", "Abilities", and "Goals". 
+ - A favorite function that allows users to follow each other. User's favorites will also show up in their Home page under a Favorites section. Favorites will also show up in the Admin's home page.  
+ - Allowing users to contact other users to jam with them. These users will show up in the People Interested section of the current user's Home page. Interested contacts will also show up in the Admin's home page.  
+ - The ability for our profile page to collect data from the user and successfully create their profile, which will be sorted and filtered. User will also have the ability to update information in their profile.
+ - The ability to create admin users who can ban "troublesome users," monitor the site, and create new categories for future usage. 
+ - A calendar that shows users when and where events would be held and the participants. The main usage of this feature is to schedule scheduling events and see which events are being held on a specific day, week, or month.  
+
+In addition, the overall design of Campus Beats was also updated per essential feedback. To coincide with our choice of background/background color, changes were made to updated the overall color scheme of our application and changes therefter, such as changing the color of the menu bar to coincidd with the background color. Now, the main, new colors of our application are a very dark teal and white. The color scheme was chosen with consideration of the background and other elements on various pages. 
+
+Specific pages that were changed and changes made include:
+ - Landing: Color scheme of landing page reflects overall color scheme of Campus Beats 
+ - User home: Favorites and People Interested sections were updated to express a more modern theme. The backgrounds of these sections exhibit a gradient blue-dark teal palette while the title of each sectoin is encapsulated in a border to emphasize the title. The profile cards were kept the same color, white background, as it fit with the color scheme. Heading for browse, which routes to the Beats page, was also changed to reflect the design. 
+ - Admin home: Design of Favorites and People Interested sections were updated to match the User home page. Additional design alterations were made for the admin controls. The color palette of said admin controls were adjusted to the overall theme of the Admin home page. 
+
 #### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
 
 ![](images/M2.png)
@@ -389,10 +397,13 @@ Some of the features that we are working on Campus beats are the following:
 
 Source code for Milestone 2 is in development.
 
-#### Milestone 2 currently consists of 14 issues, which are being managed using the CampusBeats GitHub Project M2:
+#### Milestone 2 currently consists of 16 issues, which are being managed using the CampusBeats GitHub Project M2:
 
 More issues will be added as they become apparent during the development process.
 ![](images/M2milestone.PNG)
+
+## Future features and design to implement
+These are the list of features/design apsects we hope to implement sometime in the future:
 
 # Contact us:
 Developers of CampusBeats: Blaine Wataru, Innika Pang, and Lancen Daclison.
