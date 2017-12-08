@@ -405,6 +405,8 @@ More issues will be added as they become apparent during the development process
 
 ## Future features & design to implement
 These are the list of features/design aspects we hope to implement sometime in the future:
+ - Implement admin & user permissions so that users will not be able to access admin features
+ - Removal of banned profiles from the Profile collection, rather than just from the Report collection
 
 ## Commmunity Feedback
 We had 5 people test out our application. The feedback we received from them are as follows:
