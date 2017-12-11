@@ -46,7 +46,7 @@ Upon entering Campus Beats, you will be met with the landing page:
 
 ![](images/mockup-6.png)
 
-An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. 
+An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. The landing page also has a mobile carousel of music-related pictures that a user can look through before logging into the application. 
 
 ![](images/CASlogin.PNG)
 
@@ -377,7 +377,7 @@ This milestone started on November 25, 2017 and ended on December 13, 2017.
 The task of Milestone 2 was to be able to implement the CAS authentication and improve multiple areas of our application, including quality, software egineering process, and most importantly functionality. Our goal was essentially to improve our application in any way possible, whether it was the funtionality or adding features to make the app more user friendly. Another goal we aimed for was to resolve unwanted behaviors in our funtionalities/features and ensure that every component of our application worked in sync with each other. 
 
 The following features were implemented in Campus Beats during this milestone: 
- - A filter/search function in Beats. Profiles will be sorted based on filters, consisting of "Style", "Experience", "Abilities", and "Goals". 
+ - A filter/search function in Beats. Profiles will be sorted based on categories, consisting of "Style", "Experience", "Abilities", and "Goals". In addition, the categories chosen during the creation of their profile will appear on the search page. This will enable them to start searching for other users who have similar interests as them.  
  - A favorite function that allows users to follow each other. User's favorites will also show up in their Home page under a Favorites section. Favorites will also show up in the Admin's home page.  
  - Allowing users to contact other users to jam with them. These users will show up in the People Interested section of the current user's Home page. Interested contacts will also show up in the Admin's home page.  
  - The ability for our profile page to collect data from the user and successfully create their profile, which will be sorted and filtered. User will also have the ability to update information in their profile.
@@ -387,9 +387,9 @@ The following features were implemented in Campus Beats during this milestone:
 In addition, the overall design of Campus Beats was also updated per essential feedback. To coincide with our choice of background/background color, changes were made to updated the overall color scheme of our application and changes therefter, such as changing the color of the menu bar to coincidd with the background color. Now, the main, new colors of our application are a very dark teal and white. The color scheme was chosen with consideration of the background and other elements on various pages. 
 
 Specific pages that were changed and changes made include:
- - Landing: Color scheme of landing page reflects overall color scheme of Campus Beats 
- - User home: Favorites and People Interested sections were updated to express a more modern theme. The backgrounds of these sections exhibit a gradient blue-dark teal palette while the title of each sectoin is encapsulated in a border to emphasize the title. The profile cards were kept the same color, white background, as it fit with the color scheme. Heading for browse, which routes to the Beats page, was also changed to reflect the design. 
- - Admin home: Design of Favorites and People Interested sections were updated to match the User home page. Additional design alterations were made for the admin controls. The color palette of said admin controls were adjusted to the overall theme of the Admin home page. 
+ - Landing: Color scheme of landing page reflects overall color scheme of Campus Beats. Footer also reflects main dark-teal color in heading.  
+ - User home: Favorites and People Interested sections were updated to express a more modern theme. The backgrounds of these sections exhibit a gradient blue-dark teal palette while the title of each sectoin is encapsulated in a border to emphasize the title. The profile cards were kept the same color, white background, as it fit with the color scheme. Heading for browse, which routes to the Beats page, was also changed to reflect the design. The color of the footer was also changed to be an off-white to reflect this color scheme. 
+ - Admin home: Design of Favorites and People Interested sections were updated to match the User home page. Additional design alterations were made for the admin controls. The color palette of said admin controls were adjusted to the overall theme of the Admin home page. The background color of each control was changed to be a lighter shade of blue and the buttons became an off-gray to reflect the blue text. The footer's color was also changed to be an off-white to reflect the color scheme. A "Monitor" page and a "Create" page were made to use the admin control features. The "Ban" button, however, was removed as it will be a functionality in the "Monitor" page instead. 
 
 #### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
 
@@ -406,7 +406,7 @@ Issues were created throughout the development process of Milestone 2. These ran
 ## Future features & design to implement
 These are the list of features/design aspects we hope to implement sometime in the future:
  - Implement admin & user permissions so that users will not be able to access admin features
- - Removal of banned profiles from the entire application, rather than from only the monitor page 
+ - Removal of banned profiles from the entire application, rather than from the monitor page alone
 
 ## Commmunity Feedback
 We had 5 people test out our application. The feedback we received from them are as follows:
