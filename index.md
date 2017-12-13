@@ -422,16 +422,16 @@ Source code for Milestone 2 is in development.
 Issues were created throughout the development process of Milestone 2. These ranged from updating the overall design of our application to implementing various funtionalities. Additionally, more pages were created to serve various purposes, such as the Calendar page. Although one person was assigned to be the main person working on that issue, many issues called for collaboration between members as the task appeared to be too big for one person to figure out, like the implemented search algorithm.  
 ![](images/M2milestone.PNG)
 
-## Future features & design to implement
+# Future features & design to implement
 These are the list of features/design aspects we hope to implement sometime in the future:
  - Implement admin & user permissions so that users will not be able to access admin features
  - Removal of banned profiles from the entire application, rather than from the monitor page alone
 
-## Community Feedback
+# Community Feedback
 We had 5 people test out our application. The feedback we received from them are as follows:
 
 
-## Contact us:
+# Contact us:
 Developers of CampusBeats: Blaine Wataru, Innika Pang, and Lancen Daclison.
 
 Email: watarub@hawaii.edu / innikakp@hawaii.edu / lancenhd@hawaii.edu
