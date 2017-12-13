@@ -23,7 +23,7 @@ title: Campus Beats
   - [Initial Mockup Pages](#initial-mockup-pages)
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
   - [Milestone 2: Functionality](#milestone-2-functionality)
-  - [Future features & design to implement](#Future-features-&-design-to-implement)
+  - [Future features & design to implement](#future-features-&-design-to-implement)
   - [Community Feedback](#community-feedback)
   - [Contact us](#contact-us)
   
@@ -427,7 +427,7 @@ These are the list of features/design aspects we hope to implement sometime in t
  - Implement admin & user permissions so that users will not be able to access admin features
  - Removal of banned profiles from the entire application, rather than from the monitor page alone
 
-#### Commmunity Feedback
+#### Community Feedback
 We had 5 people test out our application. The feedback we received from them are as follows:
 
 
