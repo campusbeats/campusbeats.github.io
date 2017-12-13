@@ -35,12 +35,14 @@ Campus Beats provides a hub for UH Manoa musicians to seek each other out so the
 
 Users can also choose to create events on a site-wide calendar that others users who might also be interested in the event can see. Each event listing contains the name of the event, and the event's start and end time.
 
+Admins have special priveleges and are able to add new Abilties, Styles, Experiences, and Goals, which can then be used by the userbase to add to their profiles and to use for searching. As it stands, there is no distinction between admins and users, so all users have access to admin functions.
+
 ## How does Campus Beats Work?
 Campus Beats will prompt each user (after logging in with UH ID) to create a profile, where they can list their name, musical styles, abilities, experience, and musical goals, as well as links to Youtube, Soundcloud, and Spotify, and any personal information like phone or email. 
 
 From there, users will be brought to a directory page (i.e. Beats Page), where they can input their search conditions into the search bars, and run the search, where profile cards will be brought up that match those search conditions. The search bars will default to your own chosen abilities/styles etc., and all profile cards will be shown upon entering the Beats page. Each profile card will show information about the user and allow you to contact them via their phone number or email address.
 
-Users can also choose to go to the calendar page, which will show a listing of events that users have created.
+Users can also choose to go to the calendar page, which will show a listing of events that users have created. Clicking on a calendar day opens a popup that allows users to enter a title, start time, and end time
 
 ## User Experience of Campus Beats
 
@@ -52,7 +54,7 @@ An authorized UH login is needed to enter Campus Beats. Click the "Login" button
 
 ![](images/CASlogin.PNG)
 
-A new user will be taken to their Edit Profile page, where they can edit and add information to their profile, ranging from basic information like Name, Address, or Phone Number, to Campus Beats information like their musical abilities and goals, or links to their external pages such as YouTube or SoundCloud.
+A new user will be taken to their Edit Profile page, where they can edit and add information to their profile, ranging from basic information like Name, Address, or Phone Number, to Campus Beats information li1ke their musical abilities and goals, or links to their external pages such as YouTube or SoundCloud.
 
 ![](images/mockup-1.png)
 
