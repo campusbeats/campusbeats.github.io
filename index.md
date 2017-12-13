@@ -5,8 +5,8 @@ title: Campus Beats
 ## Table of Contents
 - [Overview](#overview)  
   - [About Campus Beats](#about-campus-beats)
-  - [What does Campus Beats Do?](#what-does-campus-beats-do?)
-  - [How does Campus Beats Work?](#how-does-campus-beats-work?)
+  - [What does Campus Beats Do?](#what-does-campus-beats-do)
+  - [How does Campus Beats Work?](#how-does-campus-beats-work)
 - [User Guide to using Campus Beats](#user-guide-to-using-campus-beats)
   - [Client Experience](#client-experience)
 - [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
