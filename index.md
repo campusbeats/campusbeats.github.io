@@ -5,7 +5,7 @@ title: Campus Beats
 ## Table of Contents
 - [About Campus Beats](#about-campus-beats)  
 - [User Guide to using Campus Beats](#user-guide-to-using-campus-beats)
-  - [User Experience](#user-experience)
+  - [Client Experience](#client-experience)
 - [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
@@ -55,7 +55,7 @@ Users can also choose to go to the calendar page, which will show a listing of e
 
 
 # User Guide to using Campus Beats
-## User Experience 
+## Client Experience 
 
 Upon entering Campus Beats, you will be met with the landing page:
 
