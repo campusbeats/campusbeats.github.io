@@ -23,7 +23,7 @@ title: Campus Beats
   - [Initial Mockup Pages](#initial-mockup-pages)
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
   - [Milestone 2: Functionality](#milestone-2-functionality)
-- [Future Features and Design](#future-features-and-design)
+  - [Future Features and Design](#future-features-and-design)
 - [Community Feedback](#community-feedback)
 - [Contact us](#contact-us)
   
@@ -427,7 +427,7 @@ Issues were created throughout the development process of Milestone 2. These ran
 ![](images/M2milestone.PNG)
 
 
-# Future Features and Design
+## Future Features and Design
 These are the list of features/design aspects we hope to implement sometime in the future:
  - Implement admin & user permissions so that users will not be able to access admin features
  - Removal of banned profiles from the entire application, rather than from the monitor page alone
