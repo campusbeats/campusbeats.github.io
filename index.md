@@ -31,21 +31,24 @@ title: Campus Beats
 
 # About Campus Beats
 
-Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/) It is incomplete, as some features have not been implemented fully due to lack of time.
+Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/) Due to time constraints, only a few features were implementing in the resulting application.
 
 ## What does Campus Beats Do?
-Campus Beats provides a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users can search each other out by various factors such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and then they can contact each other through external means by using the app, which gives links to users' phone numbers and email addresses.
+Campus Beats provides a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users can search each other out by various factors, such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and can contact each other through external means as users' phone numbers and a link to the users' email addresseses are given in the application. 
 
-Users can also choose to create events on a site-wide calendar that others users who might also be interested in the event can see. Each event listing contains the name of the event, and the event's start and end time.
+Users can also choose to create events on a site-wide calendar that others users, who might also be interested in the event, can see. Each event listing contains the name of the event, and the event's start and end time.
 
-Admins have special priveleges and are able to add new Abilties, Styles, Experiences, and Goals, which can then be used by the userbase to add to their profiles and to use for searching. As it stands, there is no distinction between admins and users, so all users have access to admin functions.
+Admins also have special privileges since theya re able to add new categories to Abilties, Styles, Experiences, and Goals. The user can use these new categories to update their profile and use for searching. As it stands, there is no distinction between admins and users, so all users currently have access to admin functions. Admin and users permissions will be implemented sometime in the future, as listed in a following section. 
 
 ## How does Campus Beats Work?
-Campus Beats will prompt each user (after logging in with UH ID) to create a profile, where they can list their name, musical styles, abilities, experience, and musical goals, as well as links to Youtube, Soundcloud, and Spotify, and any personal information like phone or email. 
+Campus Beats will prompt each user (after logging in with UH ID) to create a profile where they can list their name, musical styles, abilities, experience, and musical goals as well as links to Youtube, Soundcloud, and Spotify, and personal information they would like others to see, such as a phone number or email. 
 
-From there, users will be brought to a directory page (i.e. Beats Page), where they can input their search conditions into the search bars, and run the search, where profile cards will be brought up that match those search conditions. The search bars will default to your own chosen abilities/styles etc., and all profile cards will be shown upon entering the Beats page. Each profile card will show information about the user and allow you to contact them via their phone number or email address.
+From there, users are able to access a directory page (i.e. Beats Page) where they can input their search conditions into the search bars and run the search. Profile cards matching the search conditions will appear for the user to see. Upon first accessing the Beats Page, he search bars will default to the user's chosen abilities/styles etc. from their profile and all profile cards will be shown upon entering the Beats page. Each profile will provide information about the user and allow one to contact them via phone number or email address.
+
+Additionally, upon seeing the profiles in the Beats Page, users can press a yellow star icon that allows them to add other users to their favorite and press a black headphones icon to add those users to their contacts list. Upon pressing these icons, the chosen users will appear on the user's home page (or on the admin's home page) as a quick means of contacting others and seeing potential contacts through their favorites. A red cancel button is also provided for the admin (as of now both users and admins can see the button until permissions are implemented) as a way for admins to ban users they deem are inapproprite. 
 
 Users can also choose to go to the calendar page, which will show a listing of events that users have created. Clicking on a calendar day opens a popup that allows users to enter a title, start time, and end time for their event, and it will be inserted into the calendar. 
+
 
 # Guide to using Campus Beats
 ## User Experience of Campus Beats
@@ -328,6 +331,7 @@ Load the app in a browser to run client tests, or set the TEST_BROWSER_DRIVER en
 # Development History
 
 ## Initial Mockup Pages
+These pages are our initial ideas of what we wanted our application to have and our thought process of the functionalities behind the app. It allowed us to draw out our thoughts and created a basis for the initial design of our HTML pages. 
 
 Landing page mockup page
 
