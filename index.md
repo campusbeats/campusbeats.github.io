@@ -28,17 +28,19 @@ title: Campus Beats
 
 # About Campus Beats
 
-Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/)
+Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/) It is incomplete, as some features have not been implemented fully due to lack of time.
 
-## What will Campus Beats Do?
-Campus Beats will provide a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users will be able to search each other out by various factors such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and then they can contact each other through use of the app or external means such as phone/email. 
+## What does Campus Beats Do?
+Campus Beats provides a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users can search each other out by various factors such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and then they can contact each other through external means by using the app, which gives links to users' phone numbers and email addresses.
 
-Users can also choose to create events or projects to recruit for musicians, for example a user may need someone to play at an event like a wedding, or a soundtrack for an animation or game. From there, they can search for musicians to fill that need using the app, and meet up together to collaborate.
+Users can also choose to create events on a site-wide calendar that others users who might also be interested in the event can see. Each event listing contains the name of the event, and the event's start and end time.
 
-## How will Campus Beats Work?
-Campus Beats will prompt each user (after logging in with UH ID) to create a profile, where they can list their name, musical styles, abilities, experience, and musical goals, as well as links to Youtube, Soundcloud, Spotify, and Itunes, and any personal information like phone, address, or email. 
+## How does Campus Beats Work?
+Campus Beats will prompt each user (after logging in with UH ID) to create a profile, where they can list their name, musical styles, abilities, experience, and musical goals, as well as links to Youtube, Soundcloud, and Spotify, and any personal information like phone or email. 
 
-From there, users will be brought to a directory page, where they can input their search conditions into the search bars, and run the search, where profile cards will be brought up that match those search conditions. Then, the user can click on cards to bring up full profiles of those users, and see further information about that person, or choose to contact them inside or outside the app.
+From there, users will be brought to a directory page (i.e. Beats Page), where they can input their search conditions into the search bars, and run the search, where profile cards will be brought up that match those search conditions. The search bars will default to your own chosen abilities/styles etc., and all profile cards will be shown upon entering the Beats page. Each profile card will show information about the user and allow you to contact them via their phone number or email address.
+
+Users can also choose to go to the calendar page, which will show a listing of events that users have created.
 
 ## User Experience of Campus Beats
 
@@ -62,6 +64,8 @@ After the user has entered their information and saved it using the "Update" but
 The user can also choose to visit the "Beats" page. Here, they are presented with a filter (left side) and a directory (right side). The filter contains a multitude of search fields such as "Goals" or "Abilities" that will narrow down the directory based on what the user inputs in the filter. Once the directory is filtered, the user can click on the cards that show up to view a more in-depth profile page, favorite that person, which will add them to the user's "Favorites" in their homepage, or contact that person, which will show the user in that person's "Interested In You" section on their own homepage.
 
 ![](images/beats_page.png)
+
+# Admin Experience of Campus Beats
 
 # Installation
 (1) Install [Meteor](https://www.meteor.com/install).
