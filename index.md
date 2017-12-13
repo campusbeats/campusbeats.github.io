@@ -23,7 +23,7 @@ title: Campus Beats
   - [Initial Mockup Pages](#initial-mockup-pages)
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
   - [Milestone 2: Functionality](#milestone-2-functionality)
-- [Future features & design to implement](#future-features-&-design)
+- [Future features & design](#future-features-&-design)
 - [Community Feedback](#community-feedback)
 - [Contact us](#contact-us)
   
