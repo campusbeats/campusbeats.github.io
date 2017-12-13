@@ -4,8 +4,12 @@ title: Campus Beats
 
 ## Table of Contents
 - [About Campus Beats](#about-campus-beats)  
-- [Guide to using Campus Beats](#guide-to-using-campus-beats)
-- [Installation](#installation)
+- [User Guide to using Campus Beats](#user-guide-to-using-campus-beats)
+  - [User Guide](#user-guide)
+- [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+  - [Modifications](#modifications)
 - [Application Design](#application-design)
   - [Directory structure](#directory-structure)
   - [Import conventions](#import-conventions)
@@ -50,8 +54,8 @@ Additionally, upon seeing the profiles in the Beats Page, users can press a yell
 Users can also choose to go to the calendar page, which will show a listing of events that users have created. Clicking on a calendar day opens a popup that allows users to enter a title, start time, and end time for their event, and it will be inserted into the calendar. 
 
 
-# Guide to using Campus Beats
-## User Experience of Campus Beats
+# User Guide to using Campus Beats
+## User Experience 
 
 Upon entering Campus Beats, you will be met with the landing page:
 
@@ -83,9 +87,9 @@ Lastly, the user can choose to visit the "Calendar" page where they will be pres
 Using this event popup, the user can create 
 
 
-## Admin Experience of Campus Beats
+# Developer Guide to Campus Beats
 
-# Installation
+## Installation
 (1) Install [Meteor](https://www.meteor.com/install).
 
 (2) Download a [zip file of Campus Beats](https://github.com/campusbeats/campusbeats/archive/master.zip) or clone it using git.
@@ -95,14 +99,19 @@ Using this event popup, the user can create
 ```
 $ meteor npm install
 ```
-
-(4) Run the application using:
+## Running the Application
+(4) The application can be started using:
 
 ```
 $ meteor npm run start
 ```
 
 The application will appear at [http://localhost:3000](http://localhost:3000) when it is running correctly. You can login to the application if you have an account on the UH test CAS server.  
+
+## Modifications
+If a fellow developer wishes to make alterations to this application, they can do so by:
+
+
 
 # Application Design 
 
