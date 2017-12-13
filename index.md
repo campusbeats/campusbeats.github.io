@@ -3,7 +3,10 @@ title: Campus Beats
 ---
 
 ## Table of Contents
-- [Overview - About Campus Beats](#overview-about-campus-beats)  
+- [Overview](#overview)  
+  - [About Campus Beats](#about-campus-beats)
+  - [What does Campus Beats Do?](#what-does-campus-beats-do?)
+  - [How does Campus Beats Work?](#how-does-campus-beats-work?)
 - [User Guide to using Campus Beats](#user-guide-to-using-campus-beats)
   - [Client Experience](#client-experience)
 - [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
@@ -33,8 +36,8 @@ title: Campus Beats
   
 
 
-# Overview - About Campus Beats
-
+# Overview 
+## About Campus Beats
 Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/) Due to time constraints, only a few features were implementing in the resulting application.
 
 ## What does Campus Beats Do?
