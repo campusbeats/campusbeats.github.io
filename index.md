@@ -5,7 +5,7 @@ title: Campus Beats
 ## Table of Contents
 - [About Campus Beats](#about-campus-beats)  
 - [User Guide to using Campus Beats](#user-guide-to-using-campus-beats)
-  - [User Guide](#user-guide)
+  - [User Experience](#user-experience)
 - [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
