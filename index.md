@@ -4,6 +4,7 @@ title: Campus Beats
 
 ## Table of Contents
 - [About Campus Beats](#about-campus-beats)  
+- [Guide to using Campus Beats](#guide-to-using-campus-beats)
 - [Installation](#installation)
 - [Application design](#application-design)
   - [Directory structure](#directory-structure)
@@ -42,8 +43,9 @@ Campus Beats will prompt each user (after logging in with UH ID) to create a pro
 
 From there, users will be brought to a directory page (i.e. Beats Page), where they can input their search conditions into the search bars, and run the search, where profile cards will be brought up that match those search conditions. The search bars will default to your own chosen abilities/styles etc., and all profile cards will be shown upon entering the Beats page. Each profile card will show information about the user and allow you to contact them via their phone number or email address.
 
-Users can also choose to go to the calendar page, which will show a listing of events that users have created. Clicking on a calendar day opens a popup that allows users to enter a title, start time, and end time
+Users can also choose to go to the calendar page, which will show a listing of events that users have created. Clicking on a calendar day opens a popup that allows users to enter a title, start time, and end time for their event, and it will be inserted into the calendar. 
 
+# Guide to using Campus Beats
 ## User Experience of Campus Beats
 
 Upon entering Campus Beats, you will be met with the landing page:
@@ -67,7 +69,16 @@ The user can also choose to visit the "Beats" page. Here, they are presented wit
 
 ![](images/beats_page.png)
 
-# Admin Experience of Campus Beats
+(calendar page)
+
+Lastly, the user can choose to visit the "Calendar" page where they will be presented with a calendar of events created by the userbase. Clicking on any day in the future (i.e. not a day before the current day, or the current day itself) will open the following popup:
+
+(create event popup)
+
+Using this event popup, the user can create 
+
+
+## Admin Experience of Campus Beats
 
 # Installation
 (1) Install [Meteor](https://www.meteor.com/install).
