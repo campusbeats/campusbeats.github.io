@@ -148,9 +148,17 @@ client/
 
 imports/
   api/           # Define collection processing code (client + server side)
+    ability/
     base/
+    eventdata/
+    experience/
+    favorites/
+    goal/
     interest/
+    people-interested/
     profile/
+    report/
+    style/
   startup/       # Define code to run when system starts up (client-only, server-only)
     client/        
     server/        
@@ -195,12 +203,24 @@ import '/imports/ui/pages/filter';
 import '/imports/ui/pages/beats';
 import '/imports/ui/pages/home';
 import '/imports/ui/pages/admin';
+import '/imports/ui/pages/ban';
+import '/imports/ui/pages/create';
+import '/imports/ui/pages/monitor';
 import '/imports/ui/pages/landing';
 import '/imports/ui/pages/user';
+import '/imports/ui/pages/calendar';
 import '/imports/ui/stylesheets/style.css';
 import '/imports/api/base';
 import '/imports/api/profile';
 import '/imports/api/interest';
+import '/imports/api/ability';
+import '/imports/api/style';
+import '/imports/api/goal';
+import '/imports/api/experience';
+import '/imports/api/eventdata';
+import '/imports/api/favorites';
+import '/imports/api/people-interested';
+import '/imports/api/report';
 ```
 
 All of the directories import their specified index.js file, except for the style.css which is imported directly.
@@ -219,20 +239,27 @@ The naming conventions adhered for this application are:
   * Capitalization also used for pages represented by templates with underscores separating multiple words. E.g. Home_Page. Files within templates are lower lower case, with hyphens used to separate words. E.g. directory-page.html, user-home.js.
   * Route names are the same as their corresponding page, captilaization used with underscores separating words. E.g. Directory_Page.
 
-
 ## Data model
 
-The CampusBeats data model is implemented by two Javascript classes: [ProfileCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/profile/ProfileCollection.js) and [InterestCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/interest/InterestCollection.js). Both of these classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and Interests)that provides access to that collection. 
+The CampusBeats data model is implemented by several Javascript classes: 
+- [ProfileCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/profile/ProfileCollection.js)
+- [FavoritesCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/favorites/FavoritesCollection.js)
+- [PeopleInterestedCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/people-interested/PeopleInterestedCollection.js)
+- [ReportCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/report/ReportCollection.js)
+- [InterestCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/interest/InterestCollection.js)
+- [AbilityCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/profile/ProfileCollection.js)
+- [ExperienceCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/experience/ExperienceCollection.js)
+- [GoalCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/goal/GoalCollection.js)
+- [StyleCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/style/StyleCollection.js)
+- [EventData](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/eventdata/eventdata.js)
 
-Any part of the system that manipulates the CampusBeats data model imports the Profiles or Interests variable, and invokes methods of that class to get or set data.
+These classes encapsulate a MongoDB collection with the same name and export a single variable (e.g. Profiles) that provides access to that collection. 
 
-Within the application, two collections using MongoDB exist: the ProfileCollection and InterestCollection classes. These are inherited from the [BaseCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/base/BaseCollection.js) class.
+Any part of the system that manipulates the CampusBeats data model imports one or many of these variables, and invokes methods of that class to get or set data.
+
+Within the application, several collections using MongoDB (every class except EventData) are inherited from the [BaseCollection](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/base/BaseCollection.js) class.
 
 The [BaseUtilities](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/base/BaseUtilities.js) file contains functions that operate across both classes. 
-
-The ProfileCollection and InterestCollection contain Mocha unit tests in [ProfileCollection.test.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/profile/ProfileCollection.test.js) and [InterestCollection.test.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/interest/InterestCollection.test.js). 
-
-Currently, these collections are a part of the current model, but will be updated as new collections are added.
 
 ## CSS
 
@@ -296,7 +323,12 @@ A eslintrc file is included in Campusbeats to define the coding style that was f
 meteor npm run lint
 ```
 
-ESLint should run without generating any errors. 
+ESLint will generate some errors involving the following pages:
+- [eventdata.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/api/eventdata/eventdata.js)
+- [calendar-page.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/ui/calendar/calendar-page.js)
+- [create-event-modal.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/ui/calendar/calendar-page.js)
+
+These were created from [Chad Morita's Meteor-Calendar](http://www.chadmorita.com/meteor-example-fullcalendar/), using an old version of Meteor and ESLint, and were not able to be updated for ESMAScript 6.
 
 # Development History
 
@@ -411,7 +443,7 @@ These are the list of features/design aspects we hope to implement sometime in t
  - Mobile version
 
 # Community Feedback
-After developing our application, we had 5 members of the community act as users to test our application. We received feedback from: Devan L., Jerrie S., Lindsay R., Ashley T., and
+After developing our application, we had 5 members of the community act as users to test our application. We received feedback from: Devan L., Jerrie S., Lindsay R., Ashley T., and <INSERT NAME HERE>
 
 The feedback we received from them are as follows:
 ## Liked
