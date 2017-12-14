@@ -140,14 +140,15 @@ $ meteor npm run start
 
 The application will appear at [http://localhost:3000](http://localhost:3000) when it is running correctly. You can login to the application if you have an account on the UH test CAS server.  
 
-## Modifications FIX
+## Modifications
 If a fellow developer wishes to make alterations to this application, they can do so by:
-
+  
 (1) Get the application running on your local environment using the steps above.
+  
+(2) Create a branch of your own to make changes using GitHub Desktop or GitShell. You will need to fork your own version of the repo in order to do so.
+  
+(3) Changes to code can be made using any text editor or development environment such as [Atom](https://atom.io/) or [IntelliJ](https://www.jetbrains.com/idea/) 
 
-(2) Changes to code can be made using any text editor or development environment such as [Atom](.
-
-(3) 
 
 # Application Design 
 
