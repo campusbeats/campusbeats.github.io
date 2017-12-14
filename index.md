@@ -109,13 +109,15 @@ Lastly, the user can choose to visit the "Calendar" page where they will be pres
 (create event popup)
 Using this event popup, the user can create 
 
+## Admin Experience
+
 Admins go through the same process as the user, except they have special privileges. By going through the Admin Page they are able to go to the following pages:
  
- ### Monitor Page
- Admins are able to monitor the app by banning inappropriate users from the site by clicking the red ban buttons underneath the profiles. This allows the admin to remove the user from the application. However, removal is only able to remove the first profile listed at this time. This issue will be fixed in the future. Another implementation that needs to be added in the future is adding inappropriate users to a ban list. 
+### Monitor Page
+Admins are able to monitor the app by banning inappropriate users from the site by clicking the red ban buttons underneath the profiles. This allows the admin to remove the user from the application. However, removal is only able to remove the first profile listed at this time. This issue will be fixed in the future. Another implementation that needs to be added in the future is adding inappropriate users to a ban list. 
  
- ### Create Page
- They are also able to add new categories to Abilities, Styles, Experiences, and Goals dropdown menus. 
+### Create Page
+They also have the ability to add new categories to Abilities, Styles, Experiences, and Goals dropdown menus. To do so, they will need to fill out all the fields with what they feel should be a new, legitimate category for the app. They can then click the corresponding buttons and it will add that category to the dropdown menus. The buttons are color-coded based on the color of each category within the tags on the profile cards. 
 
 # Developer Guide to Campus Beats
 
@@ -460,7 +462,10 @@ These are a list of known bugs that, while not app-breaking, definitely exist. I
 ## Future Features and Design
 These are the list of features/design aspects we hope to implement sometime in the future:
  - Implement admin & user permissions so that users will not be able to access admin features
+ - Only allowing success messages for specific categories to show instead of having all of the success messages show up at once when an admin wants to add one category to a specific dropdown menu
+ - Being able to ban selected profiles, not just the first
  - Removal of banned profiles from the entire application, rather than from the monitor page alone
+ - Adding user profiles to Favorites and People Interested sections via buttons on the profiles located in the Beats Page 
  - Integration with phone/text notifications
  - In-app messaging client
  - Mobile version
