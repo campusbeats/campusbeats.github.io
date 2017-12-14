@@ -77,7 +77,7 @@ Upon entering Campus Beats, you will be met with the landing page:
 
 An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. The landing page also has a mobile carousel of music-related pictures that a user can look through before logging into the application. 
 
-![](images/loginin.png)
+![](images/logininM2.png)
 
 ### Edit Profile
 A new user will be taken to their Edit Profile page, where they can edit and add information to their profile, ranging from basic information like Name, Address, or Phone Number, to Campus Beats information li1ke their musical abilities and goals, or links to their external pages such as YouTube or SoundCloud.
