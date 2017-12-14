@@ -97,12 +97,14 @@ The user can also choose to visit the "Beats" page. Here, they are presented wit
 ### Calendar Page
 
 Lastly, the user can choose to visit the "Calendar" page where they will be presented with a calendar of events created by the userbase. Clicking on any day in the future (i.e. not a day before the current day, or the current day itself) will open the following popup:
-(calendar page)
-
-(create event popup)
-Using this event popup, the user can create 
-
 ![](images/calendarpageM2.png)
+
+Using this event popup, the user can schedule new events to jam with other users, and feel the beat.
+![](images/calendar-eventM2.png)
+
+Users can also delete an event by clicking on any of the displayed events on the calendar. 
+After clicking on it, the event will disappear in the calendar. 
+
 
 ## Admin Experience
 Admins go through the same process as the user, except they have special privileges. By going through the Admin Page, they are able to go to the following pages with their admin status:
