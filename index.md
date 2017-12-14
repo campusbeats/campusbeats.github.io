@@ -469,9 +469,10 @@ The following images are what the user would currently see:
 
 #### The Project Page for Milestone 2 of Campus Beats can be found at [Milestone 2 Project Page](https://github.com/campusbeats/campusbeats/projects/2)
 
-Source code for Milestone 2 is in development.
+This is our timeline of Milestone 2.
+![](images/timelineM2.png)
 
-#### Milestone 2 currently consists of 19 issues, which were managed using the CampusBeats GitHub Project M2:
+#### Milestone 2 consists of 18 issues, which were managed using the CampusBeats GitHub Project M2:
 Issues were created throughout the development process of Milestone 2. These ranged from updating the overall design of our application to implementing various funtionalities. Additionally, more pages were created to serve various purposes, such as the Calendar page. Although one person was assigned to be the main person working on that issue, many issues called for collaboration between members as the task appeared to be too big for one person to figure out, like the implemented search algorithm.  
 ![](images/M2milestone.PNG)
  
