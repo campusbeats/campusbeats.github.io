@@ -42,11 +42,6 @@ title: Campus Beats
 - [Community Feedback](#community-feedback)
 - [Contact us](#contact-us)
   
-# THINGS TO DO
-- Update for any new features added (i.e. admin features)
-- Delete this list.
-- Mark each task with an x when completed
-- I will check this over and final deploy at 10:00PM and post to Slack at around 11:00PM. PLEASE make sure there are no app-breaking bugs. If your code breaks the app / you don't think it's a good idea to have it in an actual release just leave it out.
 
 # Overview 
 ## About Campus Beats
@@ -474,7 +469,8 @@ The following images are what the user would currently see:
 #### The Project Page for Milestone 2 of Campus Beats can be found at [Milestone 2 Project Page](https://github.com/campusbeats/campusbeats/projects/2)
 
 This is our timeline of Milestone 2.
-![](images/timelineM2.png)
+![](images/timelineM2split1.png)
+![](images/timelineM2split2.png)
 
 #### Milestone 2 consists of 18 issues, which were managed using the CampusBeats GitHub Project M2:
 Issues were created throughout the development process of Milestone 2. These ranged from updating the overall design of our application to implementing various funtionalities. Additionally, more pages were created to serve various purposes, such as the Calendar page. Although one person was assigned to be the main person working on that issue, many issues called for collaboration between members as the task appeared to be too big for one person to figure out, like the implemented search algorithm.  
