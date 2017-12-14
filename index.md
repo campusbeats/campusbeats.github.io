@@ -8,8 +8,12 @@ title: Campus Beats
   - [What does Campus Beats Do?](#what-does-campus-beats-do)
   - [How does Campus Beats Work?](#how-does-campus-beats-work)
 - [User Guide to using Campus Beats](#user-guide-to-using-campus-beats)
-  - [Client Experience](#client-experience)
+  - [Average User Experience](#average-user-experience)
     - [Landing Page and Login](#landing-page-and-login)
+    - [Edit Profile](#edit-profile)
+    - [Home Page](#home-page)
+    - [Beats Page](#beats-page)
+    - [Calendar Page](#calendar-page)
   - [Admin Experience](#admin-experience)
 - [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
   - [Installation](#installation)
@@ -58,7 +62,8 @@ Additionally, upon seeing the profiles in the Beats Page, users can press a yell
 Users can also choose to go to the calendar page, which will show a listing of events that users have created. Clicking on a calendar day opens a popup that allows users to enter a title, start time, and end time for their event, and it will be inserted into the calendar. 
 
 # User Guide to using Campus Beats
-## Client Experience 
+
+## Average User Experience 
 
 ### Landing Page and Login
 Upon entering Campus Beats, you will be met with the landing page:
