@@ -45,6 +45,7 @@ title: Campus Beats
 - Add ALL community feedback.
 - Admin Experience section
 - Modifications section
+- Update for any new features added (i.e. admin features)
 - Update new pictures for user/admin exp and M2 in general.
 - Double check for any mentions of Bowfolios.
 - Delete this list.
