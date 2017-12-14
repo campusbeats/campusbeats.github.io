@@ -73,27 +73,26 @@ Users can also choose to go to the calendar page, which will show a listing of e
 ### Landing Page and Login
 Upon entering Campus Beats, you will be met with the landing page:
 
-![](images/mockup-6.png)
+![](images/landingpageM2.png)
 
 An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. The landing page also has a mobile carousel of music-related pictures that a user can look through before logging into the application. 
 
-![](images/CASlogin.PNG)
+![](images/loginpageM2.png)
 
 ### Edit Profile
 A new user will be taken to their Edit Profile page, where they can edit and add information to their profile, ranging from basic information like Name, Address, or Phone Number, to Campus Beats information li1ke their musical abilities and goals, or links to their external pages such as YouTube or SoundCloud.
 
-![](images/mockup-1.png)
+![](images/profilepageM2.png)
 
 ### Home Page
 After the user has entered their information and saved it using the "Update" button, they can click on the "Home" tab in their menubar to go to the user homepage. From the homepage, the user can view their favorited users and any other users who have elected to contact them. 
 
-![](images/mockup-2.png)
-![](images/mockup-3.png)
+![](images/homepageM2.png)
 
 ### Beats Page
 The user can also choose to visit the "Beats" page. Here, they are presented with a filter (left side) and a directory (right side). The filter contains a multitude of search fields such as "Goals" or "Abilities" that will narrow down the directory based on what the user inputs in the filter. Once the directory is filtered, the user can click on the cards that show up to view a more in-depth profile page, favorite that person, which will add them to the user's "Favorites" in their homepage, or contact that person, which will show the user in that person's "Interested In You" section on their own homepage.
 
-![](images/beats_page.png)
+![](images/beatspageM2.png)
 
 ### Calendar Page
 
@@ -103,14 +102,22 @@ Lastly, the user can choose to visit the "Calendar" page where they will be pres
 (create event popup)
 Using this event popup, the user can create 
 
+![](images/calendarpageM2.png)
+
 ## Admin Experience
 Admins go through the same process as the user, except they have special privileges. By going through the Admin Page, they are able to go to the following pages with their admin status:
- 
+
+![](images/adminpageM2.png)
+
 ### Monitor Page
 Admins are able to monitor the app by banning inappropriate users from the site by clicking the red ban button underneath the profiles. This allows the admin to remove the user from the application. However, they can currently remove only the first profile listed among the segment consisting of all the marked profiles. This issue will be fixed in the future. Another implementation that needs to be added in the future is adding inappropriate users to a ban list. 
  
+ ![](images/admin-monitorM2.png)
+ 
 ### Create Page
 They also have the ability to add new categories to Abilities, Styles, Experiences, and Goals dropdown menus. To do so, they will need to fill out all the fields with what they feel should be a new, legitimate category for the app. They can then click the corresponding buttons and it will add that category to the dropdown menus. The buttons are color-coded based on the color of each category within the tags on the profile cards. 
+
+![](images/admin-createM2.png)
 
 # Developer Guide to Campus Beats
 
