@@ -7,7 +7,7 @@ title: Campus Beats
   - [About Campus Beats](#about-campus-beats)
   - [What does Campus Beats Do?](#what-does-campus-beats-do)
   - [How does Campus Beats Work?](#how-does-campus-beats-work)
-- [User Guide to using Campus Beats x](#user-guide-to-using-campus-beats)
+- [User Guide to using Campus Beats](#user-guide-to-using-campus-beats)
   - [Average User Experience](#average-user-experience)
     - [Landing Page and Login](#landing-page-and-login)
     - [Edit Profile](#edit-profile)
@@ -15,6 +15,8 @@ title: Campus Beats
     - [Beats Page](#beats-page)
     - [Calendar Page](#calendar-page)
   - [Admin Experience](#admin-experience)
+    - [Monitor Page](#monitor-page)
+    - [Create Page](#create-page)
 - [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
@@ -358,7 +360,7 @@ ESLint will generate some errors involving the following pages:
 - [calendar-page.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/ui/calendar/calendar-page.js)
 - [create-event-modal.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/ui/calendar/calendar-page.js)
 
-These were created from [Chad Morita's Meteor-Calendar](http://www.chadmorita.com/meteor-example-fullcalendar/), using an old version of Meteor and ESLint, and were not able to be updated for ESMAScript 6.
+These were created from [Chad Morita's Meteor-Calendar](http://www.chadmorita.com/meteor-example-fullcalendar/), using an old version of Meteor and ESLint, and were not able to be updated for ECMAScript 6.
 
 # Development History
 
@@ -507,7 +509,7 @@ The feedback we received from them are as follows:
 - It looks like a real site/app.
 - Great idea for people to meet each other and have fun.
 
-# Could Improve
+## Could Improve
 - Making the sentence before Browse button on User Home Page more concise
 - Would be nice to be able to search using only some fields
 - Select all / delete all for search options
