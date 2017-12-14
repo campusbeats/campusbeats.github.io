@@ -34,10 +34,10 @@ title: Campus Beats
 - [Development History](#development-history)
   - [Initial Mockup Pages](#initial-mockup-pages)
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
-  - [Milestone 2: Functionality x](#milestone-2-functionality)
-  - [Known bugs and issues x](#known-bugs-and-issues)
-  - [Future Features and Design x](#future-features-and-design)
-- [Community Feedback x](#community-feedback)
+  - [Milestone 2: Functionality](#milestone-2-functionality)
+  - [Known bugs and issues](#known-bugs-and-issues)
+  - [Future Features and Design](#future-features-and-design)
+- [Community Feedback](#community-feedback)
 - [Contact us](#contact-us)
   
 # THINGS TO DO
