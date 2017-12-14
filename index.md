@@ -381,20 +381,24 @@ The task was to create four HTML mockup pages of CampusBeats and a complete impl
 The following are the HTML mockups of our application:
 
 ### HTML Mockup for Landing:
-<img src="images/mockup-6.png">
+<img height="300" src="images/mockup-6.png">
 
 ### HTML Mockup for User Profile:
 
-<img src="images/mockup-7.png">
-<img src="images/mockup-1.png">
-<img src="images/mockup-5.png">
+<div class="height=300">
+    <img src="images/mockup-7.png">
+    <img src="images/mockup-1.png">
+    <img src="images/mockup-5.png">
+</div>
 
 ### HTML Mockup for User Home:
 
-<img src="images/mockup-7.png">
-<img src="images/mockup-2.png">
-<img src="images/mockup-3.png">
-<img src="images/mockup-5.png">
+<div class="height=300">
+    <img src="images/mockup-7.png">
+    <img src="images/mockup-2.png">
+    <img src="images/mockup-3.png">
+    <img src="images/mockup-5.png">
+</div>
 
 ### HTML Mockup for Admin Home:
 
@@ -407,7 +411,7 @@ The following are the HTML mockups of our application:
 </div>
 
 ### HTML Mockup for Beats:
-<img src="images/beats_page.png">
+<img height="300" src="images/beats_page.png">
 
 #### Milestone 1 was implemented as CampusBeats Github Milestone M1:
 ![](images/M1.png)  
