@@ -9,6 +9,8 @@ title: Campus Beats
   - [How does Campus Beats Work?](#how-does-campus-beats-work)
 - [User Guide to using Campus Beats](#user-guide-to-using-campus-beats)
   - [Client Experience](#client-experience)
+    - [Landing Page and Login](#landing-page-and-login)
+  - [Admin Experience](#admin-experience)
 - [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
@@ -25,7 +27,6 @@ title: Campus Beats
   - [Configuration](#configuration)
   - [Quality Assurance](#quality-assurance)
     - [ESLint](#eslint)
-    - [Data model unit tests](#data-model-unit-tests)
 - [Development History](#development-history)
   - [Initial Mockup Pages](#initial-mockup-pages)
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
@@ -38,14 +39,14 @@ title: Campus Beats
 
 # Overview 
 ## About Campus Beats
-Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/) Due to time constraints, only a few features were implementing in the resulting application.
+Campus Beats can be found at [https://campusbeats.meteorapp.com/](https://campusbeats.meteorapp.com/) Due to time constraints, not every feature was implementing in the resulting application.
 
 ## What does Campus Beats Do?
 Campus Beats provides a hub for UH Manoa musicians to seek each other out so they can collaborate and play with each other. Users can search each other out by various factors, such as musical styles (e.g. jazz, rock, punk), abilities (e.g. songwriting, guitar, music production), and experience (e.g. <1 month, <6 months, 1 year), and can contact each other through external means as users' phone numbers and a link to the users' email addresseses are given in the application. 
 
 Users can also choose to create events on a site-wide calendar that others users, who might also be interested in the event, can see. Each event listing contains the name of the event, and the event's start and end time.
 
-Admins also have special privileges since theya re able to add new categories to Abilties, Styles, Experiences, and Goals. The user can use these new categories to update their profile and use for searching. As it stands, there is no distinction between admins and users, so all users currently have access to admin functions. Admin and users permissions will be implemented sometime in the future, as listed in a following section. 
+Admins also have special privileges since they are able to add new categories to Abilties, Styles, Experiences, and Goals. The user can use these new categories to update their profile and use for searching. As it stands, there is no distinction between admins and users, so all users currently have access to admin functions. Admin and users permissions will be implemented sometime in the future, as listed in a following section. 
 
 ## How does Campus Beats Work?
 Campus Beats will prompt each user (after logging in with UH ID) to create a profile where they can list their name, musical styles, abilities, experience, and musical goals as well as links to Youtube, Soundcloud, and Spotify, and personal information they would like others to see, such as a phone number or email. 
@@ -56,10 +57,10 @@ Additionally, upon seeing the profiles in the Beats Page, users can press a yell
 
 Users can also choose to go to the calendar page, which will show a listing of events that users have created. Clicking on a calendar day opens a popup that allows users to enter a title, start time, and end time for their event, and it will be inserted into the calendar. 
 
-
 # User Guide to using Campus Beats
 ## Client Experience 
 
+### Landing Page and Login
 Upon entering Campus Beats, you will be met with the landing page:
 
 ![](images/mockup-6.png)
@@ -68,27 +69,29 @@ An authorized UH login is needed to enter Campus Beats. Click the "Login" button
 
 ![](images/CASlogin.PNG)
 
+### Edit Profile
 A new user will be taken to their Edit Profile page, where they can edit and add information to their profile, ranging from basic information like Name, Address, or Phone Number, to Campus Beats information li1ke their musical abilities and goals, or links to their external pages such as YouTube or SoundCloud.
 
 ![](images/mockup-1.png)
 
+### Home Page
 After the user has entered their information and saved it using the "Update" button, they can click on the "Home" tab in their menubar to go to the user homepage. From the homepage, the user can view their favorited users and any other users who have elected to contact them. 
 
 ![](images/mockup-2.png)
 ![](images/mockup-3.png)
 
+### Beats Page
 The user can also choose to visit the "Beats" page. Here, they are presented with a filter (left side) and a directory (right side). The filter contains a multitude of search fields such as "Goals" or "Abilities" that will narrow down the directory based on what the user inputs in the filter. Once the directory is filtered, the user can click on the cards that show up to view a more in-depth profile page, favorite that person, which will add them to the user's "Favorites" in their homepage, or contact that person, which will show the user in that person's "Interested In You" section on their own homepage.
 
 ![](images/beats_page.png)
 
-(calendar page)
+### Calendar Page
 
 Lastly, the user can choose to visit the "Calendar" page where they will be presented with a calendar of events created by the userbase. Clicking on any day in the future (i.e. not a day before the current day, or the current day itself) will open the following popup:
+(calendar page)
 
 (create event popup)
-
 Using this event popup, the user can create 
-
 
 # Developer Guide to Campus Beats
 
@@ -248,6 +251,7 @@ The following routes are defined in CampusBeats:
   * The `/<user>/home` route goes to the home page associated with `<user>`, which is the UH account name.
   * The `/<user>/admin` route goes to the admin home page associated with `<user>`, which is the UH account name.
   * The `/<user>/beats` route goes to the beats page associated with `<user>`, which is the UH account name.
+  * The `/<user>/calendar` route goes to the calendar page associated `<user>`, which is the UH account name.
 
 ## Authentication
 
@@ -265,13 +269,13 @@ To use the profile and filter pages, authentication is required. The user must l
 
 A template-based authorization following the recommendations in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions) is used to restrict the contents of the application to authorized users only.  
 
-An If_Authorized template, defined in [If_Authorized.html](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/bowfolios/bowfolios/blob/master/app/imports/ui/layouts/user/if-authorized.js) is implemented for the template-based authorization.
+An If_Authorized template, defined in [If_Authorized.html](https://github.com/campusbeats/campusbeats/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/campusbeats/campusbeats/blob/master/app/imports/ui/layouts/user/if-authorized.js) is implemented for the template-based authorization.
 
 A seperate authorization for admin permissions will also be implemented at a future date. The admins will be allowed to see and access the special admin home page and controls.
 
 ## Configuration
 
-The settings files are held in the [config](https://github.com/bowfolios/bowfolios/tree/master/config) directory.  There is one file in the directory, which is [config/settings.development.json](https://github.com/campusbeats/campusbeats/blob/master/config/settings.development.json).
+The settings files are held in the [config](https://github.com/campusbeats/campusbeats/tree/master/config) directory.  There is one file in the directory, which is [config/settings.development.json](https://github.com/campusbeats/campusbeats/blob/master/config/settings.development.json).
 
 To prevent a file named settings.production.json and other miscellaneous files from being committed to the repository, the [.gitignore](https://github.com/campusbeats/campusbeats/blob/master/.gitignore) was created. 
 
@@ -287,58 +291,7 @@ A eslintrc file is included in Campusbeats to define the coding style that was f
 meteor npm run lint
 ```
 
-ESLint should run without generating any errors.  
-
-
-### Data model unit tests
-
-The script named 'test,' defined in the package.json file, can be invoked to run uni tests on the data model:
-
-```
-meteor npm run test
-```
-
-The results of the test output to the console. For example, a successful run with timestamps removed should look like:
-
-```
-[~/github/campusbeats/app]-> meteor npm run test
-
-> campusbeats@ test /Users/campusbeats_squad/github/campusbeats/app
-> TEST_WATCH=1 meteor test --driver-package meteortesting:mocha
-
-[[[[[ Tests ]]]]]                             
-
-=> Started proxy.                             
-=> Started MongoDB.  
-                         
-(STDERR) Note: you are using a pure-JavaScript implementation of bcrypt.
-(STDERR) While this implementation will work correctly, it is known to be
-(STDERR) approximately three times slower than the native implementation.
-(STDERR) In order to use the native implementation instead, run
-(STDERR) 
-(STDERR)   meteor npm install --save bcrypt
-(STDERR) 
-(STDERR) in the root directory of your application.
-
- --------------------------------
- ----- RUNNING SERVER TESTS -----
- --------------------------------
-   
-=> Started your app.
-
-=> App running at: http://localhost:3000/
-    InterestCollection
-    ✓ #define, #isDefined, #removeIt, #dumpOne, #restoreOne (69ms)
-    ✓ #findID, #findIDs  
-    ProfileCollection
-    ✓ #define, #isDefined, #removeIt, #dumpOne, #restoreOne (66ms)
-    ✓ #define (illegal interest)
-    ✓ #define (duplicate interests)
-
-   5 passing (178ms)
-
-Load the app in a browser to run client tests, or set the TEST_BROWSER_DRIVER environment variable. See https://github.com/DispatchMe/meteor-mocha/blob/master/README.md#run-app-tests
-```
+ESLint should run without generating any errors. 
 
 # Development History
 
@@ -434,27 +387,38 @@ The changes to specific pages include:
 
 Source code for Milestone 2 is in development.
 
-#### Milestone 2 currently consists of 18 issues, which are being managed using the CampusBeats GitHub Project M2:
+#### Milestone 2 currently consists of 19 issues, which were managed using the CampusBeats GitHub Project M2:
 Issues were created throughout the development process of Milestone 2. These ranged from updating the overall design of our application to implementing various funtionalities. Additionally, more pages were created to serve various purposes, such as the Calendar page. Although one person was assigned to be the main person working on that issue, many issues called for collaboration between members as the task appeared to be too big for one person to figure out, like the implemented search algorithm.  
 ![](images/M2milestone.PNG)
 
+## Known bugs and issues
+These are a list of known bugs that, while not app-breaking, definitely exist. If you find a new bug, report it to the dev team!
+  - Calendar Event Creator popup does not display all possible error messages
+  - Unknown dependencies on InterestCollection pulled from Bowfolios
+  - Information cannot be removed if input into profile
 
 ## Future Features and Design
 These are the list of features/design aspects we hope to implement sometime in the future:
  - Implement admin & user permissions so that users will not be able to access admin features
  - Removal of banned profiles from the entire application, rather than from the monitor page alone
-
+ - Integration with phone/text notifications
+ - In-app messaging client
+ - Mobile version
 
 # Community Feedback
-After developing our application, we had 5 members of the community act as users to test our application. 
+After developing our application, we had 5 members of the community act as users to test our application. We received feedback from: Devan L., Jerrie S., Lindsay R., Ashley T., and
 
 The feedback we received from them are as follows:
- - Adjust color of category tags (e.g. lightest blue) of profiles as it may hurt the eyes
- - Making the sentence before Browse button on User Home Page more concise
- - Fixing inability to update the profile after creating one
- + "It looks and feels simple and easy to use" 
- + "Maybe add colors to calendar's day of the week. So readability is easier." 
- 
+## Liked
+- "It looks and feels simple and easy to use" 
+- "Maybe add colors to calendar's day of the week. So readability is easier." 
+- Calendar automatically adjust sizes making it easy to see all events
+
+# Could Improve
+- Making the sentence before Browse button on User Home Page more concise
+- Would be nice to be able to search using only some fields
+- Select all / delete all for search options
+- Some sort of tutorial would be helpful
 
 # Contact us:
 Developers of CampusBeats: Blaine Wataru, Innika Pang, and Lancen Daclison.
