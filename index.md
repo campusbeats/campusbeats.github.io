@@ -385,27 +385,29 @@ The following are the HTML mockups of our application:
 
 ### HTML Mockup for User Profile:
 
-<img height="300" src="images/mockup-7.png">
-<img height="300" src="images/mockup-1.png">
-<img height="300" src="images/mockup-5.png">
+<img src="images/mockup-7.png">
+<img src="images/mockup-1.png">
+<img src="images/mockup-5.png">
 
 ### HTML Mockup for User Home:
 
-<img height="300" src="images/mockup-7.png">
-<img height="300" src="images/mockup-2.png">
-<img height="300" src="images/mockup-3.png">
-<img height="300" src="images/mockup-5.png">
+<img src="images/mockup-7.png">
+<img src="images/mockup-2.png">
+<img src="images/mockup-3.png">
+<img src="images/mockup-5.png">
 
 ### HTML Mockup for Admin Home:
 
-<img height="300" src="images/mockup-7.png">
-<img height="300" src="images/mockup-4.png">
-<img height="300" src="images/mockup-2.png">
-<img height="300" src="images/mockup-3.png">
-<img height="300" src="images/mockup-5.png">
+<div class="height=300">
+    <img src="images/mockup-7.png">
+    <img src="images/mockup-4.png">
+    <img src="images/mockup-2.png">
+    <img src="images/mockup-3.png">
+    <img src="images/mockup-5.png">
+</div>
 
 ### HTML Mockup for Beats:
-<img height="300" src="images/beats_page.png">
+<img src="images/beats_page.png">
 
 #### Milestone 1 was implemented as CampusBeats Github Milestone M1:
 ![](images/M1.png)  
