@@ -385,27 +385,27 @@ The following are the HTML mockups of our application:
 
 ### HTML Mockup for User Profile:
 
-<img src="images/mockup-7.png">
-<img src="images/mockup-1.png">
-<img src="images/mockup-5.png">
+<img height="300" src="images/mockup-7.png">
+<img height="300" src="images/mockup-1.png">
+<img height="300" src="images/mockup-5.png">
 
 ### HTML Mockup for User Home:
 
-<img src="images/mockup-7.png">
-<img src="images/mockup-2.png">
-<img src="images/mockup-3.png">
-<img src="images/mockup-5.png">
+<img height="300" src="images/mockup-7.png">
+<img height="300" src="images/mockup-2.png">
+<img height="300" src="images/mockup-3.png">
+<img height="300" src="images/mockup-5.png">
 
 ### HTML Mockup for Admin Home:
 
-<img src="images/mockup-7.png">
-<img src="images/mockup-4.png">
-<img src="images/mockup-2.png">
-<img src="images/mockup-3.png">
-<img src="images/mockup-5.png">
+<img height="300" src="images/mockup-7.png">
+<img height="300" src="images/mockup-4.png">
+<img height="300" src="images/mockup-2.png">
+<img height="300" src="images/mockup-3.png">
+<img height="300" src="images/mockup-5.png">
 
 ### HTML Mockup for Beats:
-![](images/beats_page.png)
+<img height="300" src="images/beats_page.png">
 
 #### Milestone 1 was implemented as CampusBeats Github Milestone M1:
 ![](images/M1.png)  
@@ -422,15 +422,13 @@ This illustrates the commits and various branches/merges created during the deve
 Each issue was assigned to one person so that work can be delegated efficently to each team member. A branch named "issue" with its issue number was created for each issue. When every issue was finished/specific mockup page was completed, the branch was merged into master.
 ![](images/M1milestone.PNG)
 
-## Milestone 2 Functionality FIX
+## Milestone 2 Functionality
 This milestone started on November 25, 2017 and ended on December 13, 2017. 
 
 The task of Milestone 2 was to be able to implement the CAS authentication and improve multiple areas of our application, including quality, software egineering process, and most importantly functionality. Our goal was essentially to improve our application in any way possible, whether it was the funtionality or adding features to make the app more user friendly. Another goal we aimed for was to resolve unwanted behaviors in our funtionalities/features and ensure that every component of our application worked in sync with each other. 
 
 The following features were implemented in Campus Beats during this milestone: 
  - A filter/search function in Beats. Profiles will be sorted based on categories, consisting of "Style", "Experience", "Abilities", and "Goals". In addition, the categories chosen during the creation of their profile will appear on the search page. This will enable them to start searching for other users who have similar interests as them.  
- - A favorite function that allows users to follow each other. User's favorites will also show up in their Home page under a Favorites section. Favorites will also show up in the Admin's home page.  
- - Allowing users to contact other users to jam with them. These users will show up in the People Interested section of the current user's Home page. Interested contacts will also show up in the Admin's home page.  
  - The ability for our profile page to collect data from the user and successfully create their profile, which will be sorted and filtered. User will also have the ability to update information in their profile.
  - The ability to create admin users who can monitor the application by banning "troublesome users" and creating new categories for future usage. These admin controls are located in the Admin home page where admins will be redirected to pages that fulfill these controls. The page to monitor the app consist of a dropdown that allows for the admin to select users who they feel have been inappropriate and proceed to ban them. The page to create new content allows the admin to input new categories in the Abilities, Styles, Goals, and Experiences section.   
  - A calendar that shows users when and where events would be held and the participants. The main usage of this feature is to schedule scheduling events and see which events are being held on a specific day, week, or month by clicking on a specific day on the calendar.   
@@ -441,6 +439,21 @@ The changes to specific pages include:
  - Landing: Color scheme of landing page reflects overall color scheme of Campus Beats. Footer also reflects main dark-teal color in heading.  
  - User home: Favorites and People Interested sections were updated to express a more modern theme. The backgrounds of these sections exhibit a gradient blue-dark teal palette while the title of each sectoin is encapsulated in a border to emphasize the title. The profile cards were kept the same color, white background, as it fit with the color scheme. Heading for browse, which routes to the Beats page, was also changed to reflect the design. The color of the footer was also changed to be an off-white to reflect this color scheme. 
  - Admin home: Design of Favorites and People Interested sections were updated to match the User home page. Additional design alterations were made for the admin controls. The color palette of said admin controls were adjusted to the overall theme of the Admin home page. The background color of each control was changed to be a lighter shade of blue and the buttons became an off-gray to reflect the blue text. The footer's color was also changed to be an off-white to reflect the color scheme. A "Monitor" page and a "Create" page were created to use the admin control features. The "Ban" button, however, was removed as it will be a functionality in the "Monitor" page instead. 
+
+The following images are what the user would currently see:
+### Landing Page
+
+### Profile Page
+
+### User Home Page
+
+### Admin Home Page
+
+### Create Page
+
+### Monitor Page
+
+### Calendar Page
 
 #### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
 
@@ -454,11 +467,12 @@ Source code for Milestone 2 is in development.
 Issues were created throughout the development process of Milestone 2. These ranged from updating the overall design of our application to implementing various funtionalities. Additionally, more pages were created to serve various purposes, such as the Calendar page. Although one person was assigned to be the main person working on that issue, many issues called for collaboration between members as the task appeared to be too big for one person to figure out, like the implemented search algorithm.  
 ![](images/M2milestone.PNG)
  
-## Known bugs and issues FIX
+## Known bugs and issues
 These are a list of known bugs that, while not app-breaking, definitely exist. If you find a new bug, report it to the dev team!
   - Calendar Event Creator popup does not display all possible error messages
   - Unknown dependencies on InterestCollection pulled from Bowfolios
   - Information cannot be removed if input into profile
+  - Removing/banning profiles can only be done on the first profile (user is not able to select which profiles they can ban)
 
 ## Future Features and Design
 These are the list of features/design aspects we hope to implement sometime in the future:
@@ -471,7 +485,7 @@ These are the list of features/design aspects we hope to implement sometime in t
  - In-app messaging client
  - Mobile version
 
-# Community Feedback FIX
+# Community Feedback
 After developing our application, we had 5 members of the community act as users to test our application. We received feedback from: Devan L., Jerrie S., Lindsay R., Ashley T., and Rie K.
 
 The feedback we received from them are as follows:
