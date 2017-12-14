@@ -109,14 +109,6 @@ Lastly, the user can choose to visit the "Calendar" page where they will be pres
 (create event popup)
 Using this event popup, the user can create 
 
-Admins go through the same process as the user, except they have special privileges. By going through the Admin Page they are able to go to the following pages:
- 
- ### Monitor Page
- Admins are able to ban inappropriate users from the site.
- 
- ### Create Page
- They are also able to add new categories to Abilities, Styles, Experiences, and Goals dropdown menus. 
-
 # Developer Guide to Campus Beats
 
 ## Installation
@@ -138,14 +130,14 @@ $ meteor npm run start
 
 The application will appear at [http://localhost:3000](http://localhost:3000) when it is running correctly. You can login to the application if you have an account on the UH test CAS server.  
 
-## Modifications FIX
+## Modifications
 If a fellow developer wishes to make alterations to this application, they can do so by:
 
 (1) Get the application running on your local environment using the steps above.
 
-(2) Changes to code can be made using any text editor or development environment such as [Atom](.
+(2) Create a branch of your own to make changes using GitHub Desktop or GitShell. You will need to fork your own version of the repo in order to do so.
 
-(3) 
+(3) Changes to code can be made using any text editor or development environment such as [Atom](https://atom.io/) or [IntelliJ](https://www.jetbrains.com/idea/) 
 
 # Application Design 
 
@@ -419,7 +411,7 @@ This illustrates the commits and various branches/merges created during the deve
 Each issue was assigned to one person so that work can be delegated efficently to each team member. A branch named "issue" with its issue number was created for each issue. When every issue was finished/specific mockup page was completed, the branch was merged into master.
 ![](images/M1milestone.PNG)
 
-## Milestone 2 Functionality FIX
+## Milestone 2 Functionality
 This milestone started on November 25, 2017 and ended on December 13, 2017. 
 
 The task of Milestone 2 was to be able to implement the CAS authentication and improve multiple areas of our application, including quality, software egineering process, and most importantly functionality. Our goal was essentially to improve our application in any way possible, whether it was the funtionality or adding features to make the app more user friendly. Another goal we aimed for was to resolve unwanted behaviors in our funtionalities/features and ensure that every component of our application worked in sync with each other. 
@@ -451,7 +443,7 @@ Source code for Milestone 2 is in development.
 Issues were created throughout the development process of Milestone 2. These ranged from updating the overall design of our application to implementing various funtionalities. Additionally, more pages were created to serve various purposes, such as the Calendar page. Although one person was assigned to be the main person working on that issue, many issues called for collaboration between members as the task appeared to be too big for one person to figure out, like the implemented search algorithm.  
 ![](images/M2milestone.PNG)
  
-## Known bugs and issues FIX
+## Known bugs and issues
 These are a list of known bugs that, while not app-breaking, definitely exist. If you find a new bug, report it to the dev team!
   - Calendar Event Creator popup does not display all possible error messages
   - Unknown dependencies on InterestCollection pulled from Bowfolios
@@ -465,7 +457,7 @@ These are the list of features/design aspects we hope to implement sometime in t
  - In-app messaging client
  - Mobile version
 
-# Community Feedback FIX
+# Community Feedback
 After developing our application, we had 5 members of the community act as users to test our application. We received feedback from: Devan L., Jerrie S., Lindsay R., Ashley T., and Rie K.
 
 The feedback we received from them are as follows:
