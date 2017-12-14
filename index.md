@@ -7,7 +7,7 @@ title: Campus Beats
   - [About Campus Beats](#about-campus-beats)
   - [What does Campus Beats Do?](#what-does-campus-beats-do)
   - [How does Campus Beats Work?](#how-does-campus-beats-work)
-- [User Guide to using Campus Beats](#user-guide-to-using-campus-beats)
+- [User Guide to using Campus Beats x](#user-guide-to-using-campus-beats)
   - [Average User Experience](#average-user-experience)
     - [Landing Page and Login](#landing-page-and-login)
     - [Edit Profile](#edit-profile)
@@ -18,7 +18,7 @@ title: Campus Beats
 - [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
-  - [Modifications](#modifications)
+  - [Modifications x](#modifications)
 - [Application Design](#application-design)
   - [Directory structure](#directory-structure)
   - [Import conventions](#import-conventions)
@@ -34,12 +34,21 @@ title: Campus Beats
 - [Development History](#development-history)
   - [Initial Mockup Pages](#initial-mockup-pages)
   - [Milestone 1: Mockup development](#milestone-1-mockup-development)
-  - [Milestone 2: Functionality](#milestone-2-functionality)
-  - [Future Features and Design](#future-features-and-design)
-- [Community Feedback](#community-feedback)
+  - [Milestone 2: Functionality x](#milestone-2-functionality)
+  - [Known bugs and issues x](#known-bugs-and-issues)
+  - [Future Features and Design x](#future-features-and-design)
+- [Community Feedback x](#community-feedback)
 - [Contact us](#contact-us)
   
-
+# THINGS TO DO
+- Fix any section with an x marker.
+- Add ALL community feedback.
+- Admin Experience section
+- Modifications section
+- Update new pictures for user/admin exp and M2 in general.
+- Double check for any mentions of Bowfolios.
+- Delete this list.
+- I will check this over and final deplo at 10:00PM and post to Slack at around 11:00PM. PLEASE make sure there are no app-breaking bugs. If your code breaks the app / you don't think it's a good idea to have it in an actual release just leave it out.
 
 # Overview 
 ## About Campus Beats
@@ -119,7 +128,7 @@ $ meteor npm run start
 
 The application will appear at [http://localhost:3000](http://localhost:3000) when it is running correctly. You can login to the application if you have an account on the UH test CAS server.  
 
-## Modifications
+## Modifications FIX
 If a fellow developer wishes to make alterations to this application, they can do so by:
 
 
@@ -293,7 +302,7 @@ In order for the application to run successfully, it needs the CAS configuration
 
 Those with a valid UH account can login and use CampusBeats to find musically inclined people. If a profile does not exist for the current user, one is created for them upon accessing the application. 
 
-## Authorization
+## Authorization 
 
 Public pages are the landing and directory pages, thus, these pages can be accessed by anyone.
 
@@ -396,7 +405,7 @@ This illustrates the commits and various branches/merges created during the deve
 Each issue was assigned to one person so that work can be delegated efficently to each team member. A branch named "issue" with its issue number was created for each issue. When every issue was finished/specific mockup page was completed, the branch was merged into master.
 ![](images/M1milestone.PNG)
 
-## Milestone 2 Functionality
+## Milestone 2 Functionality FIX
 This milestone started on November 25, 2017 and ended on December 13, 2017. 
 
 The task of Milestone 2 was to be able to implement the CAS authentication and improve multiple areas of our application, including quality, software egineering process, and most importantly functionality. Our goal was essentially to improve our application in any way possible, whether it was the funtionality or adding features to make the app more user friendly. Another goal we aimed for was to resolve unwanted behaviors in our funtionalities/features and ensure that every component of our application worked in sync with each other. 
@@ -427,8 +436,8 @@ Source code for Milestone 2 is in development.
 #### Milestone 2 currently consists of 19 issues, which were managed using the CampusBeats GitHub Project M2:
 Issues were created throughout the development process of Milestone 2. These ranged from updating the overall design of our application to implementing various funtionalities. Additionally, more pages were created to serve various purposes, such as the Calendar page. Although one person was assigned to be the main person working on that issue, many issues called for collaboration between members as the task appeared to be too big for one person to figure out, like the implemented search algorithm.  
 ![](images/M2milestone.PNG)
-
-## Known bugs and issues
+ 
+## Known bugs and issues FIX
 These are a list of known bugs that, while not app-breaking, definitely exist. If you find a new bug, report it to the dev team!
   - Calendar Event Creator popup does not display all possible error messages
   - Unknown dependencies on InterestCollection pulled from Bowfolios
@@ -442,8 +451,8 @@ These are the list of features/design aspects we hope to implement sometime in t
  - In-app messaging client
  - Mobile version
 
-# Community Feedback
-After developing our application, we had 5 members of the community act as users to test our application. We received feedback from: Devan L., Jerrie S., Lindsay R., Ashley T., and <INSERT NAME HERE>
+# Community Feedback FIX
+After developing our application, we had 5 members of the community act as users to test our application. We received feedback from: Devan L., Jerrie S., Lindsay R., Ashley T., and **<INSERT NAME HERE>**
 
 The feedback we received from them are as follows:
 ## Liked
