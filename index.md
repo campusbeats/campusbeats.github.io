@@ -93,10 +93,10 @@ The user can also choose to visit the "Beats" page. Here, they are presented wit
 
 ### Calendar Page
 
-Lastly, the user can choose to visit the "Calendar" page where they will be presented with a calendar of events created by the userbase. Clicking on any day in the future (i.e. not a day before the current day, or the current day itself) will open the following popup:
+Lastly, the user can choose to visit the "Calendar" page where they will be presented with a calendar of events created by the userbase. 
 ![](images/calendarpageM2.png)
 
-Using this event popup, the user can schedule new events to jam with other users, and feel the beat.
+Clicking on any day in the future (i.e. not a day before the current day, or the current day itself) will open an event popup to create an event. From here, the user can schedule new events to jam with other users, and feel the beat.
 ![](images/calendar-eventM2.png)
 
 Users can also delete an event by clicking on any of the displayed events on the calendar. 
