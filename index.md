@@ -511,6 +511,9 @@ The feedback we received from them are as follows:
 - Select all / delete all for search options
 - Some sort of tutorial would be helpful
 
+# Special Thanks
+In developing this app, we made use of Phillip Johnson's [Bowfolios](https://bowfolios.github.io/) and Chad Morita's [Meteor-Example-Full-Calendar](http://www.chadmorita.com/meteor-example-fullcalendar/).
+
 # Contact us:
 Developers of CampusBeats: Blaine Wataru, Innika Pang, and Lancen Daclison.
 
