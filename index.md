@@ -452,8 +452,9 @@ The feedback we received from them are as follows:
  - Adjust color of category tags (e.g. lightest blue) of profiles as it may hurt the eyes
  - Making the sentence before Browse button on User Home Page more concise
  - Fixing inability to update the profile after creating one
- - "It looks and feels simple and easy to use" 
- - "Maybe add colors to calendar's day of the week. So readability is easier." 
+ + "It looks and feels simple and easy to use" 
+ + "Maybe add colors to calendar's day of the week. So readability is easier." 
+ 
 
 # Contact us:
 Developers of CampusBeats: Blaine Wataru, Innika Pang, and Lancen Daclison.
