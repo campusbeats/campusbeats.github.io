@@ -41,13 +41,7 @@ title: Campus Beats
 - [Contact us](#contact-us)
   
 # THINGS TO DO
-- Fix any section with an x marker.
-- Add ALL community feedback.
-- Admin Experience section
-- Modifications section
 - Update for any new features added (i.e. admin features)
-- Update new pictures for user/admin exp and M2 in general.
-- Double check for any mentions of Bowfolios.
 - Delete this list.
 - Mark each task with an x when completed
 - I will check this over and final deploy at 10:00PM and post to Slack at around 11:00PM. PLEASE make sure there are no app-breaking bugs. If your code breaks the app / you don't think it's a good idea to have it in an actual release just leave it out.
@@ -79,26 +73,27 @@ Users can also choose to go to the calendar page, which will show a listing of e
 ### Landing Page and Login
 Upon entering Campus Beats, you will be met with the landing page:
 
-![](images/landingpageM2.png)
+![](images/mockup-6.png)
 
 An authorized UH login is needed to enter Campus Beats. Click the "Login" button to access the application, however, the proper credentials need to be entered in the CAS authentication screen that appears up if you wish to use the application. The landing page also has a mobile carousel of music-related pictures that a user can look through before logging into the application. 
 
-![](images/loginpageM2.png)
+![](images/CASlogin.PNG)
 
 ### Edit Profile
 A new user will be taken to their Edit Profile page, where they can edit and add information to their profile, ranging from basic information like Name, Address, or Phone Number, to Campus Beats information li1ke their musical abilities and goals, or links to their external pages such as YouTube or SoundCloud.
 
-![](images/profilepageM2.png)
+![](images/mockup-1.png)
 
 ### Home Page
 After the user has entered their information and saved it using the "Update" button, they can click on the "Home" tab in their menubar to go to the user homepage. From the homepage, the user can view their favorited users and any other users who have elected to contact them. 
 
-![](images/homepageM2.png)
+![](images/mockup-2.png)
+![](images/mockup-3.png)
 
 ### Beats Page
 The user can also choose to visit the "Beats" page. Here, they are presented with a filter (left side) and a directory (right side). The filter contains a multitude of search fields such as "Goals" or "Abilities" that will narrow down the directory based on what the user inputs in the filter. Once the directory is filtered, the user can click on the cards that show up to view a more in-depth profile page, favorite that person, which will add them to the user's "Favorites" in their homepage, or contact that person, which will show the user in that person's "Interested In You" section on their own homepage.
 
-![](images/beatspageM2.png)
+![](images/beats_page.png)
 
 ### Calendar Page
 
@@ -106,23 +101,16 @@ Lastly, the user can choose to visit the "Calendar" page where they will be pres
 (calendar page)
 
 (create event popup)
-Using this event popup, the user can create
-
-![](images/calendarpageM2.png)
+Using this event popup, the user can create 
 
 ## Admin Experience
-
-Admins go through the same process as the user, except they have special privileges. By going through the Admin Page they are able to go to the following pages:
+Admins go through the same process as the user, except they have special privileges. By going through the Admin Page, they are able to go to the following pages with their admin status:
  
 ### Monitor Page
-Admins are able to monitor the app by banning inappropriate users from the site by clicking the red ban buttons underneath the profiles. This allows the admin to remove the user from the application. However, removal is only able to remove the first profile listed at this time. This issue will be fixed in the future. Another implementation that needs to be added in the future is adding inappropriate users to a ban list. 
-  
-![](images/admin-monitorM2.png)
-
+Admins are able to monitor the app by banning inappropriate users from the site by clicking the red ban button underneath the profiles. This allows the admin to remove the user from the application. However, they can currently remove only the first profile listed among the segment consisting of all the marked profiles. This issue will be fixed in the future. Another implementation that needs to be added in the future is adding inappropriate users to a ban list. 
+ 
 ### Create Page
 They also have the ability to add new categories to Abilities, Styles, Experiences, and Goals dropdown menus. To do so, they will need to fill out all the fields with what they feel should be a new, legitimate category for the app. They can then click the corresponding buttons and it will add that category to the dropdown menus. The buttons are color-coded based on the color of each category within the tags on the profile cards. 
-
-![](images/admin-createM2.png)
 
 # Developer Guide to Campus Beats
 
@@ -441,7 +429,7 @@ The task of Milestone 2 was to be able to implement the CAS authentication and i
 The following features were implemented in Campus Beats during this milestone: 
  - A filter/search function in Beats. Profiles will be sorted based on categories, consisting of "Style", "Experience", "Abilities", and "Goals". In addition, the categories chosen during the creation of their profile will appear on the search page. This will enable them to start searching for other users who have similar interests as them.  
  - The ability for our profile page to collect data from the user and successfully create their profile, which will be sorted and filtered. User will also have the ability to update information in their profile.
- - The ability to create admin users who can monitor the application by banning "troublesome users" and creating new categories for future usage. These admin controls are located in the Admin home page where admins will be redirected to pages that fulfill these controls. The page to monitor the app consist of a dropdown that allows for the admin to select users who they feel have been inappropriate and proceed to ban them. The page to create new content allows the admin to input new categories in the Abilities, Styles, Goals, and Experiences section.   
+ - The ability to create admin users who can monitor the application by banning "troublesome users" and creating new categories for future usage. These admin controls are located in the Admin home page where admins will be redirected to pages that fulfill these controls. The page to monitor the app consist of a dropdown that allows for the admin to select users who they feel have been inappropriate and proceed to ban them. The page to create new content allows the admin to input new categories in the Abilities, Styles, Goals, and Experiences section. Please see "Known bugs and issues" and "Future Features and Design section" for issues regarding admin controls and future fixes that may be implemented in the future.    
  - A calendar that shows users when and where events would be held and the participants. The main usage of this feature is to schedule scheduling events and see which events are being held on a specific day, week, or month by clicking on a specific day on the calendar.   
 
 In addition, the overall design of Campus Beats was also updated per essential feedback. To coincide with our choice of background/background color, changes were made to updated the overall color scheme of our application and changes therefter, such as changing the color of the menu bar to coincide with the background color. Now, the main, new colors of our application are a very dark teal and white. The color scheme was chosen with consideration of the background and other elements on various pages. 
