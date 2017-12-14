@@ -381,7 +381,7 @@ The task was to create four HTML mockup pages of CampusBeats and a complete impl
 The following are the HTML mockups of our application:
 
 ### HTML Mockup for Landing:
-<img height="300" src="images/mockup-6.png">
+<img src="images/mockup-6.png">
 
 ### HTML Mockup for User Profile:
 
@@ -411,7 +411,7 @@ The following are the HTML mockups of our application:
 </div>
 
 ### HTML Mockup for Beats:
-<img height="300" src="images/beats_page.png">
+<img src="images/beats_page.png">
 
 #### Milestone 1 was implemented as CampusBeats Github Milestone M1:
 ![](images/M1.png)  
