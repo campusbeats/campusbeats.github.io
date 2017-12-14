@@ -18,7 +18,7 @@ title: Campus Beats
 - [Developer Guide to Campus Beats](#developer-guide-to-campus-beats)
   - [Installation](#installation)
   - [Running the Application](#running-the-application)
-  - [Modifications x](#modifications)
+  - [Modifications](#modifications)
 - [Application Design](#application-design)
   - [Directory structure](#directory-structure)
   - [Import conventions](#import-conventions)
