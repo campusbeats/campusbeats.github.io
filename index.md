@@ -40,6 +40,7 @@ title: Campus Beats
   - [Known bugs and issues](#known-bugs-and-issues)
   - [Future Features and Design](#future-features-and-design)
 - [Community Feedback](#community-feedback)
+- [Special Thanks](#special-thanks)
 - [Contact us](#contact-us)
   
 
