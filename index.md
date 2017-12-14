@@ -49,6 +49,7 @@ title: Campus Beats
 - Update new pictures for user/admin exp and M2 in general.
 - Double check for any mentions of Bowfolios.
 - Delete this list.
+- Mark each task with an x when completed
 - I will check this over and final deplo at 10:00PM and post to Slack at around 11:00PM. PLEASE make sure there are no app-breaking bugs. If your code breaks the app / you don't think it's a good idea to have it in an actual release just leave it out.
 
 # Overview 
