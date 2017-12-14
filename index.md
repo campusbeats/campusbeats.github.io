@@ -450,19 +450,19 @@ The changes to specific pages include:
 
 The following images are what the user would currently see:
 ### Landing Page
-
+![](images/landingpageM2.png)
 ### Profile Page
-
+![](images/profilepageM2.png)
 ### User Home Page
-
+![](images/homepageM2.png)
 ### Admin Home Page
-
+![](images/adminpageM2.png)
 ### Create Page
-
+![](images/admin-createM2.png)
 ### Monitor Page
-
+![](images/admin-monitorM2.png)
 ### Calendar Page
-
+![](images/calendarpageM2.png)
 #### Milestone 2 has been implemented as CampusBeats Github Milestone M2:
 
 ![](images/M2.png)
